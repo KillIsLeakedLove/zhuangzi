@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>庄子解读 - 内篇·外篇·杂篇</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- 加载所有章节数据 -->
+    <script src="content/xiaoyaoyou.js"></script>
+    <script src="content/qiwulun.js"></script>
+    <script src="content/yangshengzhu.js"></script>
+    <script src="content/renjianshi.js"></script>
+    <script src="content/dechongfu.js"></script>
+    <script src="content/dashizong.js"></script>
+    <script src="content/yingdiwang.js"></script>
+    <script src="content/tiandao.js"></script>
+    <script src="content/tianyun.js"></script>
+    <script src="content/qishui.js"></script>
+    <script src="content/zhimubai.js"></script>
+    <script src="content/dasheng.js"></script>
+    <script src="content/shanshui.js"></script>
+    <script src="content/tianziyan.js"></script>
+    <script src="content/zhiman.js"></script>
+    <script src="content/yuyan.js"></script>
+    <script src="content/rangwang.js"></script>
+    <script src="content/shuibai.js"></script>
+    <script src="content/daozhi.js"></script>
+    <script src="content/zuojian.js"></script>
+    <script src="content/lieyukou.js"></script>
+    <script src="content/tianxia.js"></script>
+    <script src="content/hongbeiming.js"></script>
+    <script src="content/zeyang.js"></script>
+    <script src="content/wawu.js"></script>
+    <script src="content/jiquan.js"></script>
+    <script src="content/liezi.js"></script>
+    <script src="content/tianda.js"></script>
+</head>
+<body>
+    <!-- 主题切换按钮 -->
+    <button class="theme-toggle" id="theme-toggle" aria-label="切换主题">
+        <svg class="sun-icon" viewBox="0 0 24 24">
+            <path d="M12 7a5 5 0 100 10 5 5 0 000-10zM12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+        </svg>
+        <svg class="moon-icon" viewBox="0 0 24 24">
+            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/>
+        </svg>
+    </button>
+
+    <div class="container">
+        <!-- 装饰引言 -->
+        <div class="quote-decoration">天地与我并生，而万物与我为一</div>
+
+        <!-- 侧边导航 -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h1>庄 子</h1>
+                <p class="subtitle">解读与赏析</p>
+            </div>
+            <nav class="toc">
+                <!-- 内篇 -->
+                <div class="toc-section">
+                    <h2 class="section-title" data-section="neipian">内篇</h2>
+                    <ul class="chapter-list" id="neipian-list"></ul>
+                </div>
+                <!-- 外篇 -->
+                <div class="toc-section">
+                    <h2 class="section-title" data-section="waipian">外篇</h2>
+                    <ul class="chapter-list" id="waipian-list"></ul>
+                </div>
+                <!-- 杂篇 -->
+                <div class="toc-section">
+                    <h2 class="section-title" data-section="zapian">杂篇</h2>
+                    <ul class="chapter-list" id="zapian-list"></ul>
+                </div>
+            </nav>
+        </aside>
+
+        <!-- 主内容区 -->
+        <main class="main-content">
+            <div class="content-wrapper">
+                <div id="welcome" class="welcome">
+                    <h2>欢迎阅读《庄子》</h2>
+                    <p>《庄子》是道家经典之一，共三十三篇，分内篇、外篇、杂篇。</p>
+                    <p>内篇七篇为庄子本人所作，外篇十五篇和杂篇十一篇为其后学所著。</p>
+                    <p>请从左侧目录选择篇章开始阅读。</p>
+                </div>
+
+                <article id="chapter-content" class="chapter-content" style="display: none;">
+                    <header class="chapter-header">
+                        <span class="chapter-tag" id="chapter-tag"></span>
+                        <h2 id="chapter-title"></h2>
+                    </header>
+                    <div class="scroll-container">
+                        <div class="original-text" id="original-text"></div>
+                        <div class="interpretation-tabs" id="interpretation-tabs">
+                            <div class="tab-nav">
+                                <button class="tab-btn active" data-tab="interpretation">解读</button>
+                                <button class="tab-btn" data-tab="insight">启示</button>
+                                <button class="tab-btn" data-tab="example">用例</button>
+                            </div>
+                            <div class="tab-content">
+                                <div class="tab-panel active" id="tab-interpretation">
+                                    <div id="interpretation-content"></div>
+                                </div>
+                                <div class="tab-panel" id="tab-insight">
+                                    <div id="insight-content"></div>
+                                </div>
+                                <div class="tab-panel" id="tab-example">
+                                    <div id="example-content"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </main>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
