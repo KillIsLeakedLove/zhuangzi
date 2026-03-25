@@ -345,11 +345,11 @@ html {
 
 /* 原文区域 */
 .original-text {
-    margin-bottom: 48px;
+    margin-bottom: 24px;
 }
 
 .sentence {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     padding: 18px 22px;
     background: var(--bg-secondary);
     border-radius: 10px;
@@ -399,10 +399,10 @@ html {
 
 /* 标签页样式 */
 .interpretation-tabs {
-    padding: 32px 36px;
+    padding: 16px 16px;
     background: var(--bg-tertiary);
     border-radius: 12px;
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 .tab-nav {
