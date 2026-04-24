@@ -224,7 +224,7 @@ function loadChapter(chapterId, section, linkElement) {
     const welcome = document.getElementById('welcome');
     const content = document.getElementById('chapter-content');
     welcome.style.display = 'none';
-    content.style.display = 'block';
+    content.style.display = '';
 
     // 获取章节信息
     const chapter = chapters[section].find(c => c.id === chapterId);
@@ -270,9 +270,7 @@ function renderOriginalText(data) {
     const quickNav = document.getElementById('quick-nav');
     if (quickNav && data.sentences && data.sentences.length > 0) {
         const nodes = data.sentences.map((s, index) => {
-            const preview = s.original.substring(0, 16) + (s.original.length > 16 ? '…' : '');
-            return `<div class="timeline-node" data-timeline-index="${index}" onclick="scrollToSentence(${index})" title="第${index + 1}段">
-                <span class="timeline-tooltip">${preview}</span>
+            return `<div class="timeline-node" data-timeline-index="${index}" onclick="scrollToSentence(${index})">
                 <span class="timeline-dot"></span>
                 <span class="timeline-label">${index + 1}</span>
             </div>`;
@@ -280,6 +278,8 @@ function renderOriginalText(data) {
         quickNav.innerHTML = `<div class="timeline-track"><div class="timeline-track-inner">${nodes}</div></div>`;
         quickNav.style.display = 'block';
         setupTimelineDrag(quickNav);
+        const previews = data.sentences.map(s => s.original.substring(0, 16) + (s.original.length > 16 ? '…' : ''));
+        setupTimelineTooltips(quickNav, previews);
     } else if (quickNav) {
         quickNav.style.display = 'none';
     }
@@ -325,6 +325,50 @@ function setupTimelineDrag(navEl) {
         const walk = (x - startX) * 1.5;
         track.scrollLeft = scrollLeftStart - walk;
     });
+}
+
+// 设置时间线 tooltip（position: fixed，避免被 overflow 裁剪）
+function setupTimelineTooltips(navEl, previews) {
+    let tooltip = document.getElementById('timeline-tooltip');
+    if (!tooltip) {
+        tooltip = document.createElement('div');
+        tooltip.id = 'timeline-tooltip';
+        tooltip.className = 'timeline-tooltip';
+        document.body.appendChild(tooltip);
+    }
+
+    navEl.querySelectorAll('.timeline-node').forEach((node, index) => {
+        const preview = previews[index];
+        if (!preview) return;
+
+        node.addEventListener('mouseenter', () => {
+            tooltip.textContent = preview;
+            tooltip.style.display = 'block';
+            positionTooltip(node, tooltip);
+        });
+
+        node.addEventListener('mouseleave', () => {
+            tooltip.style.display = 'none';
+        });
+    });
+}
+
+function positionTooltip(node, tooltip) {
+    const rect = node.getBoundingClientRect();
+    const ttRect = tooltip.getBoundingClientRect();
+    let left = rect.left + rect.width / 2 - ttRect.width / 2;
+    let top = rect.top - ttRect.height - 8;
+
+    if (left < 4) left = 4;
+    if (left + ttRect.width > window.innerWidth - 4) {
+        left = window.innerWidth - ttRect.width - 4;
+    }
+    if (top < 4) {
+        top = rect.bottom + 8;
+    }
+
+    tooltip.style.left = left + 'px';
+    tooltip.style.top = top + 'px';
 }
 
 // 平滑滚动到指定段落

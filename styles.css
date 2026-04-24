@@ -274,6 +274,7 @@ html {
     margin-left: 260px;
     padding: 60px 60px 0;
     max-width: 100%;
+    min-width: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -286,6 +287,7 @@ html {
 .content-wrapper {
     width: 100%;
     max-width: 800px;
+    min-width: 0;
     height: 100%;
     position: relative;
 }
@@ -313,7 +315,9 @@ html {
 
 /* 章节内容 */
 .chapter-content {
-    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto auto 1fr;
     height: 100%;
     animation: fadeIn 0.4s ease;
 }
@@ -340,13 +344,9 @@ html {
 
 /* 滚动容器 */
 .scroll-container {
-    position: absolute;
-    top: 120px;
-    left: 0;
-    right: 0;
-    bottom: 60px;
     overflow-y: scroll;
     padding-bottom: 20px;
+    min-height: 0;
 }
 
 .scroll-container::-webkit-scrollbar {
@@ -380,16 +380,21 @@ html {
 
 /* 段落快速导航 —— 固定时间线 */
 .quick-nav {
-    position: sticky;
-    top: 0;
-    z-index: 15;
-    margin-bottom: 16px;
-    padding: 14px 0 10px;
-    background: var(--bg-primary);
+    margin: 0 0 12px;
+    padding: 8px 0 6px;
+    background: rgba(250, 249, 247, 0.88);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--accent);
+    border-radius: 10px;
     user-select: none;
     -webkit-user-select: none;
     cursor: grab;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+[data-theme="dark"] .quick-nav {
+    background: rgba(26, 26, 26, 0.88);
 }
 
 .quick-nav.dragging {
@@ -397,6 +402,7 @@ html {
 }
 
 .timeline-track {
+    width: 100%;
     overflow-x: auto;
     overflow-y: hidden;
     scrollbar-width: none;
@@ -413,7 +419,7 @@ html {
     align-items: center;
     position: relative;
     min-width: min-content;
-    padding: 12px 30px 26px;
+    padding: 12px 30px 40px;
 }
 
 /* 水平连线 */
@@ -476,7 +482,8 @@ html {
 .timeline-node.active .timeline-dot {
     background: var(--accent);
     border-color: var(--accent);
-    box-shadow: 0 0 0 4px rgba(139, 115, 85, 0.15);
+    outline: 3px solid var(--accent);
+    outline-offset: 3px;
 }
 
 .timeline-label {
@@ -494,27 +501,21 @@ html {
     color: var(--accent);
 }
 
-.timeline-tooltip {
-    position: absolute;
-    top: -36px;
-    left: 50%;
-    transform: translateX(-50%);
+#timeline-tooltip {
+    position: fixed;
+    display: none;
     background: var(--sidebar-bg);
     color: var(--sidebar-text);
     font-size: 0.72rem;
     padding: 4px 10px;
     border-radius: 6px;
     white-space: nowrap;
-    opacity: 0;
     pointer-events: none;
-    transition: opacity 0.2s ease;
+    z-index: 2000;
     max-width: 160px;
     overflow: hidden;
     text-overflow: ellipsis;
-}
-
-.timeline-node:hover .timeline-tooltip {
-    opacity: 1;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
 /* 原文区域 */
@@ -740,6 +741,7 @@ html {
     
     .chapter-content {
         height: auto;
+        display: block;
     }
     
     .chapter-header {
@@ -747,13 +749,11 @@ html {
         padding-top: 0;
     }
     
-    .scroll-container {
-        position: relative;
-        top: auto;
-        bottom: auto;
-        overflow-y: visible;
-        padding-bottom: 20px;
-    }
+.scroll-container {
+    overflow-y: scroll;
+    padding-bottom: 20px;
+    min-height: 0;
+}
     
     .welcome h2 {
         font-size: 1.6rem;
@@ -827,9 +827,8 @@ html {
         margin-top: 6px;
     }
 
-    .timeline-tooltip {
+    #timeline-tooltip {
         font-size: 0.65rem;
-        top: -30px;
     }
 }
 
