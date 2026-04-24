@@ -43,31 +43,20 @@
 }
 
 .hz {
-    position: relative;
     cursor: help;
     border-bottom: 1px dotted var(--accent);
 }
 
-.hz::after {
-    content: attr(data-pinyin);
-    position: absolute;
-    bottom: calc(100% + 6px);
-    left: 50%;
-    transform: translateX(-50%);
+#hz-tooltip {
+    position: fixed;
+    display: none;
     background: var(--sidebar-bg);
     color: var(--sidebar-text);
     font-size: 0.72rem;
     padding: 3px 10px;
     border-radius: 6px;
     white-space: nowrap;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.2s ease, visibility 0.2s ease;
     pointer-events: none;
-    z-index: 100;
-}
-
-.hz:hover::after {
-    opacity: 1;
-    visibility: visible;
+    z-index: 2000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }

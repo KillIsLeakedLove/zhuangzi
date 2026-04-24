@@ -66,4 +66,36 @@ function renderOriginalText(data) {
             <p class="translation" style="display: none;">${s.translation}</p>
         </div>
     `).join('');
+    setupHzTooltips();
+}
+
+function setupHzTooltips() {
+    let tooltip = document.getElementById('hz-tooltip');
+    if (!tooltip) {
+        tooltip = document.createElement('div');
+        tooltip.id = 'hz-tooltip';
+        document.body.appendChild(tooltip);
+    }
+
+    document.querySelectorAll('.hz').forEach(el => {
+        el.addEventListener('mouseenter', () => {
+            tooltip.textContent = el.dataset.pinyin;
+            tooltip.style.display = 'block';
+            const rect = el.getBoundingClientRect();
+            const ttRect = tooltip.getBoundingClientRect();
+            let left = rect.left + rect.width / 2 - ttRect.width / 2;
+            let top = rect.top - ttRect.height - 8;
+            if (left < 4) left = 4;
+            if (left + ttRect.width > window.innerWidth - 4) {
+                left = window.innerWidth - ttRect.width - 4;
+            }
+            if (top < 4) top = rect.bottom + 8;
+            tooltip.style.left = left + 'px';
+            tooltip.style.top = top + 'px';
+        });
+
+        el.addEventListener('mouseleave', () => {
+            tooltip.style.display = 'none';
+        });
+    });
 }
