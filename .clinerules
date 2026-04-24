@@ -1,0 +1,66 @@
+# 庄子智慧项目规则
+
+## 项目结构
+
+```
+zhuangzi/
+├── index.html          # 单页应用入口
+├── styles.css          # CSS 入口（@import 加载 css/ 下模块）
+├── readme.md           # 项目说明
+├── LICENSE             # MIT 许可证
+├── .clinerules         # 本文件
+├── css/                # 样式模块（每文件 ≤200 行）
+│   ├── variables.css   # CSS 自定义属性（明亮/暗黑）
+│   ├── base.css        # 基础重置 + 全局动画
+│   ├── layout.css      # 页面骨架（容器、主内容区、章节网格）
+│   ├── sidebar.css     # 侧边栏 + 目录
+│   ├── components.css  # 顶部工具栏、主题切换、返回顶部
+│   ├── timeline.css    # 时间线导航 + tooltip
+│   ├── chapter.css     # 原文区域 + 句子卡片
+│   ├── tabs.css        # 标签页（解读/启示/用例）
+│   ├── utilities.css   # 链接、装饰引言、暗黑覆盖
+│   └── responsive.css  # 响应式媒体查询
+├── js/                 # 脚本模块（每文件 ≤200 行）
+│   ├── config.js       # 章节目录 + 数据映射
+│   ├── theme.js        # 暗黑/明亮主题管理
+│   ├── scroll.js       # 返回顶部 + 段落滚动 + 译文切换
+│   ├── timeline.js     # 时间线拖拽 + tooltip 定位
+│   ├── chapter.js      # 章节加载 + 内容渲染
+│   ├── navigation.js   # 侧边栏导航 + 标签页切换
+│   └── main.js         # 入口：init() + DOMContentLoaded
+└── content/            # 章节数据（33 个 .js 文件）
+    ├── xiaoyaoyou.js
+    ├── qiwulun.js
+    └── ...（共 33 篇）
+```
+
+## 《庄子》目录体系（郭象注本通行分类）
+
+### 内篇（7 篇）— 庄子本人所作
+逍遥游、齐物论、养生主、人间世、德充符、大宗师、应帝王
+
+### 外篇（15 篇）— 庄子后学所著
+骈拇、马蹄、胠箧、在宥、天地、天道、天运、刻意、缮性、秋水、至乐、达生、山木、田子方、知北游
+
+### 杂篇（11 篇）— 庄子后学所著
+庚桑楚、徐无鬼、则阳、外物、寓言、让王、盗跖、说剑、渔父、列御寇、天下
+
+## 代码规范
+
+1. **文件大小限制**：任何源码文件物理行数不得超过 200 行。
+2. **职责单一**：CSS/JS 按职责拆分为模块，禁止大杂烩文件。
+3. **CSS 命名**：使用语义化类名（BEM 风格），变量通过 `var(--*)` 引用。
+4. **JS 全局依赖**：模块间通过全局函数/变量通信（无打包工具），加载顺序由 `index.html` 控制。
+5. **数据格式**：`content/*.js` 中每个章节导出一个全局对象，结构为：
+   ```js
+   window.chapterId = {
+       title: '章节标题',
+       sentences: [
+           { original: '原文', translation: '译文' }
+       ],
+       interpretation: '<p>HTML 解读</p>',
+       insight: '<p>HTML 启示</p>',
+       example: '<p>HTML 用例</p>'
+   };
+   ```
+6. **主题系统**：通过 `data-theme="dark"` 切换，变量定义在 `css/variables.css`。
