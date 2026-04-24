@@ -49,7 +49,12 @@ function renderOriginalText(data) {
         quickNav.innerHTML = `<div class="timeline-track"><div class="timeline-track-inner">${nodes}</div></div>`;
         quickNav.style.display = 'block';
         setupTimelineDrag(quickNav);
-        const previews = data.sentences.map(s => s.original.substring(0, 16) + (s.original.length > 16 ? '…' : ''));
+        const previews = data.sentences.map(s => {
+            const tmp = document.createElement('div');
+            tmp.innerHTML = s.original;
+            const text = tmp.textContent || tmp.innerText || '';
+            return text.substring(0, 16) + (text.length > 16 ? '…' : '');
+        });
         setupTimelineTooltips(quickNav, previews);
     } else if (quickNav) {
         quickNav.style.display = 'none';
