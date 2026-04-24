@@ -33,6 +33,15 @@
     padding: 100px 40px;
 }
 
+.welcome-cover {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 32px;
+    box-shadow: 0 8px 32px var(--shadow);
+}
+
 .welcome h2 {
     font-size: 2.2rem;
     font-weight: 300;
