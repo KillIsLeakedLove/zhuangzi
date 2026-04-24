@@ -97,7 +97,10 @@
 .scroll-container {
     overflow-y: scroll;
     padding-bottom: 20px;
+    padding-top: 30px;
     min-height: 0;
+    position: relative;
+    z-index: 2;
 }
 
 .scroll-container::-webkit-scrollbar { display: none; }
