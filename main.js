@@ -19,17 +19,17 @@ const chapters = {
         { id: 'dasheng', title: '达生' },
         { id: 'shanshui', title: '山木' },
         { id: 'tianziyan', title: '田子方' },
-        { id: 'zhiman', title: '知北游' },
-        { id: 'yuyan', title: '寓言' },
-        { id: 'rangwang', title: '让王' },
-        { id: 'shuojian', title: '说剑' },
-        { id: 'daozhi', title: '盗跖' },
-        { id: 'yufu', title: '渔父' }
+        { id: 'zhiman', title: '知北游' }
     ],
     zapian: [
         { id: 'gengsangchu', title: '庚桑楚' },
         { id: 'zeyang', title: '则阳' },
         { id: 'wawu', title: '外物' },
+        { id: 'yuyan', title: '寓言' },
+        { id: 'rangwang', title: '让王' },
+        { id: 'shuojian', title: '说剑' },
+        { id: 'daozhi', title: '盗跖' },
+        { id: 'yufu', title: '渔父' },
         { id: 'lieyukou', title: '列御寇' },
         { id: 'tianxia', title: '天下' }
     ]
