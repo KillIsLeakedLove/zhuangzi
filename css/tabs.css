@@ -1,0 +1,82 @@
+/* 标签页：解读、启示、用例 */
+
+.interpretation-tabs {
+    padding: 16px 16px;
+    background: var(--bg-tertiary);
+    border-radius: 12px;
+    margin-top: 16px;
+}
+
+.tab-nav {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0;
+}
+
+.tab-btn {
+    padding: 12px 24px;
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+    border-radius: 8px 8px 0 0;
+}
+
+.tab-btn:hover {
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+}
+
+.tab-btn.active {
+    color: var(--accent);
+    background: var(--bg-secondary);
+}
+
+.tab-btn.active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--accent);
+}
+
+.tab-content {
+    position: relative;
+}
+
+.tab-panel {
+    display: none;
+    animation: fadeIn 0.3s ease;
+}
+
+.tab-panel.active {
+    display: block;
+}
+
+#interpretation-content,
+#insight-content,
+#example-content {
+    color: var(--text-secondary);
+    line-height: 1.9;
+    font-size: 0.95rem;
+}
+
+#interpretation-content p,
+#insight-content p,
+#example-content p {
+    margin-bottom: 12px;
+}
+
+#interpretation-content p:last-child,
+#insight-content p:last-child,
+#example-content p:last-child {
+    margin-bottom: 0;
+}

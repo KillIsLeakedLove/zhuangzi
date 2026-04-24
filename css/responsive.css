@@ -1,0 +1,133 @@
+/* 响应式适配 */
+
+@media (max-width: 1024px) {
+    .sidebar {
+        width: 220px;
+    }
+
+    .main-content {
+        margin-left: 220px;
+        padding: 50px 40px 70px;
+    }
+
+    .content-wrapper {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        position: relative;
+        width: 100%;
+        padding: 20px 0;
+        margin-bottom: 0;
+    }
+
+    .sidebar-header {
+        padding: 0 20px 16px;
+        margin-bottom: 16px;
+    }
+
+    .sidebar-header h1 {
+        font-size: 1.4rem;
+    }
+
+    .main-content {
+        margin-left: 0;
+        padding: 24px 20px 80px;
+        height: auto;
+        overflow: visible;
+    }
+
+    .chapter-content {
+        height: auto;
+        display: block;
+    }
+
+    .chapter-header {
+        position: relative;
+        padding-top: 0;
+    }
+
+    .scroll-container {
+        overflow-y: scroll;
+        padding-bottom: 20px;
+        min-height: 0;
+    }
+
+    .welcome h2 {
+        font-size: 1.6rem;
+    }
+
+    .chapter-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .sentence {
+        padding: 14px 16px;
+    }
+
+    .sentence .original {
+        font-size: 0.95rem;
+    }
+
+    .top-toolbar {
+        top: 12px;
+        right: 12px;
+    }
+
+    .theme-toggle,
+    .github-link {
+        width: 40px;
+        height: 40px;
+    }
+
+    .back-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 44px;
+        height: 44px;
+        touch-action: manipulation;
+    }
+
+    .quick-nav {
+        padding: 8px 0 6px;
+        margin-bottom: 12px;
+    }
+
+    .timeline-track-inner {
+        padding: 10px 20px 22px;
+    }
+
+    .timeline-track-inner::before {
+        left: 20px;
+        right: 20px;
+    }
+
+    .timeline-track-inner::after {
+        left: 20px;
+    }
+
+    .timeline-node {
+        min-width: 38px;
+        padding: 0 4px;
+    }
+
+    .timeline-dot {
+        width: 10px;
+        height: 10px;
+    }
+
+    .timeline-label {
+        font-size: 0.62rem;
+        margin-top: 6px;
+    }
+
+    #timeline-tooltip {
+        font-size: 0.65rem;
+    }
+}

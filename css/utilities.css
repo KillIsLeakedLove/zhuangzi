@@ -1,0 +1,42 @@
+/* 链接、装饰引言、暗黑模式主题覆盖 */
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--accent-light);
+}
+
+.quote-decoration {
+    position: fixed;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    writing-mode: vertical-rl;
+    font-size: 0.7rem;
+    color: var(--border);
+    letter-spacing: 0.3em;
+    opacity: 0.5;
+    transition: color 0.3s ease, opacity 0.3s ease;
+}
+
+[data-theme="dark"] .quote-decoration {
+    opacity: 0.2;
+}
+
+[data-theme="dark"] .chapter-header {
+    background-color: #1a1a1a;
+}
+
+[data-theme="dark"] .main-content {
+    background-color: #1a1a1a;
+}
+
+@media (max-width: 1200px) {
+    .quote-decoration {
+        display: none;
+    }
+}

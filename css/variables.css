@@ -1,0 +1,41 @@
+/* CSS 自定义属性 */
+
+:root {
+    --bg-primary: #faf9f7;
+    --bg-secondary: #ffffff;
+    --bg-tertiary: #f5f4f2;
+    --text-primary: #2c2c2c;
+    --text-secondary: #5a5a5a;
+    --text-muted: #888888;
+    --accent: #8b7355;
+    --accent-light: #a69076;
+    --border: #e8e6e3;
+    --shadow: rgba(0, 0, 0, 0.06);
+    --sidebar-bg: #2c2c2c;
+    --sidebar-text: #f5f4f2;
+    --sidebar-hover: #3d3d3d;
+    --sidebar-active: #4a4a4a;
+    --code-bg: #f5f4f2;
+    --scrollbar-thumb: #d4d4d4;
+    --scrollbar-track: #f1f1f1;
+}
+
+[data-theme="dark"] {
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #242424;
+    --bg-tertiary: #2d2d2d;
+    --text-primary: #e8e8e8;
+    --text-secondary: #b0b0b0;
+    --text-muted: #707070;
+    --accent: #c9a87c;
+    --accent-light: #d4bc94;
+    --border: #3a3a3a;
+    --shadow: rgba(0, 0, 0, 0.3);
+    --sidebar-bg: #0f0f0f;
+    --sidebar-text: #e8e8e8;
+    --sidebar-hover: #1f1f1f;
+    --sidebar-active: #2a2a2a;
+    --code-bg: #2d2d2d;
+    --scrollbar-thumb: #4a4a4a;
+    --scrollbar-track: #2a2a2a;
+}

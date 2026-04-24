@@ -1,0 +1,98 @@
+/* 页面骨架：容器、主内容区、章节内容、滚动容器 */
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+    margin-left: 260px;
+    padding: 60px 60px 0;
+    max-width: 100%;
+    min-width: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-primary);
+    transition: background-color 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.content-wrapper {
+    width: 100%;
+    max-width: 800px;
+    min-width: 0;
+    height: 100%;
+    position: relative;
+}
+
+.welcome {
+    text-align: center;
+    padding: 100px 40px;
+}
+
+.welcome h2 {
+    font-size: 2.2rem;
+    font-weight: 300;
+    margin-bottom: 24px;
+    color: var(--text-primary);
+    letter-spacing: 0.05em;
+}
+
+.welcome p {
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.chapter-content {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto auto 1fr;
+    height: 100%;
+    animation: fadeIn 0.4s ease;
+}
+
+.chapter-header {
+    background-color: var(--bg-primary);
+    transition: background-color 0.3s ease;
+    z-index: 10;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    padding-top: 20px;
+}
+
+.chapter-tag {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--bg-tertiary);
+    padding: 5px 12px;
+    border-radius: 16px;
+    margin-bottom: 14px;
+}
+
+.chapter-header h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--text-primary);
+    letter-spacing: 0.08em;
+}
+
+.scroll-container {
+    overflow-y: scroll;
+    padding-bottom: 20px;
+    min-height: 0;
+}
+
+.scroll-container::-webkit-scrollbar { display: none; }
+.scroll-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

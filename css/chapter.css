@@ -1,0 +1,43 @@
+/* 原文区域：句子卡片、展开翻译 */
+
+.original-text {
+    margin-bottom: 24px;
+}
+
+.sentence {
+    margin-bottom: 8px;
+    padding: 18px 22px;
+    background: var(--bg-secondary);
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.sentence:hover {
+    border-color: var(--accent);
+    box-shadow: 0 3px 16px var(--shadow);
+}
+
+.sentence:active {
+    transform: scale(0.995);
+}
+
+.sentence .original {
+    font-size: 1rem;
+    line-height: 1.95;
+    color: var(--text-primary);
+    text-align: justify;
+    user-select: none;
+}
+
+.sentence .translation {
+    font-size: 0.9rem;
+    line-height: 1.85;
+    color: var(--text-secondary);
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px dashed var(--border);
+    display: none;
+    animation: slideDown 0.25s ease;
+}
