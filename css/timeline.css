@@ -1,8 +1,8 @@
 /* 时间线（段落快速导航） */
 
 .quick-nav {
-    margin: 0 0 12px;
-    padding: 8px 0 6px;
+    margin: 0 0 8px;
+    padding: 4px 0 2px;
     background: rgba(250, 249, 247, 0.88);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
@@ -38,7 +38,7 @@
     align-items: center;
     position: relative;
     min-width: min-content;
-    padding: 12px 30px 40px;
+    padding: 6px 30px 18px;
 }
 
 .timeline-track-inner::before {
@@ -104,7 +104,7 @@
 }
 
 .timeline-label {
-    margin-top: 8px;
+    margin-top: 4px;
     font-size: 0.68rem;
     color: var(--text-muted);
     font-weight: 500;
