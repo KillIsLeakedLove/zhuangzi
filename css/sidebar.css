@@ -34,6 +34,11 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     margin-bottom: 24px;
     flex-shrink: 0;
+    cursor: pointer;
+}
+
+.sidebar-header:hover h1 {
+    color: var(--accent-light);
 }
 
 .sidebar-header h1 {

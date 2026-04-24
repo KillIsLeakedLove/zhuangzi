@@ -47,3 +47,10 @@ function switchTab(tabId) {
     document.querySelector(`.tab-btn[data-tab="${tabId}"]`).classList.add('active');
     document.getElementById(`tab-${tabId}`).classList.add('active');
 }
+
+function goHome() {
+    document.getElementById('welcome').style.display = '';
+    document.getElementById('chapter-content').style.display = 'none';
+    document.querySelectorAll('.chapter-list a').forEach(a => a.classList.remove('active'));
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
