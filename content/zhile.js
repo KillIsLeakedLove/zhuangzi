@@ -1,4 +1,4 @@
-window.zhimubai = {
+window.zhile = {
     "title": "至乐",
     "section": "外篇",
     "sentences": [

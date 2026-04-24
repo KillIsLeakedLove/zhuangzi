@@ -1,4 +1,4 @@
-window.zuojian = {
+window.yufu = {
     "title": "渔父",
     "section": "外篇",
     "sentences": [

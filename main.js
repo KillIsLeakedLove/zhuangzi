@@ -15,26 +15,23 @@ const chapters = {
         { id: 'tiandao', title: '天道' },
         { id: 'tianyun', title: '天运' },
         { id: 'qishui', title: '秋水' },
-        { id: 'zhimubai', title: '至乐' },
+        { id: 'zhile', title: '至乐' },
         { id: 'dasheng', title: '达生' },
         { id: 'shanshui', title: '山木' },
         { id: 'tianziyan', title: '田子方' },
         { id: 'zhiman', title: '知北游' },
         { id: 'yuyan', title: '寓言' },
         { id: 'rangwang', title: '让王' },
-        { id: 'shuibai', title: '说剑' },
+        { id: 'shuojian', title: '说剑' },
         { id: 'daozhi', title: '盗跖' },
-        { id: 'zuojian', title: '渔父' },
-        { id: 'lieyukou', title: '列御寇' },
-        { id: 'tianxia', title: '天下' }
+        { id: 'yufu', title: '渔父' }
     ],
     zapian: [
-        { id: 'hongbeiming', title: '庚桑楚' },
+        { id: 'gengsangchu', title: '庚桑楚' },
         { id: 'zeyang', title: '则阳' },
         { id: 'wawu', title: '外物' },
-        { id: 'jiquan', title: '荆筐' },
-        { id: 'liezi', title: '列御寇' },
-        { id: 'tianda', title: '天下' }
+        { id: 'lieyukou', title: '列御寇' },
+        { id: 'tianxia', title: '天下' }
     ]
 };
 
@@ -50,24 +47,21 @@ const chapterData = {
     tiandao: window.tiandao,
     tianyun: window.tianyun,
     qishui: window.qishui,
-    zhimubai: window.zhimubai,
+    zhile: window.zhile,
     dasheng: window.dasheng,
     shanshui: window.shanshui,
     tianziyan: window.tianziyan,
     zhiman: window.zhiman,
     yuyan: window.yuyan,
     rangwang: window.rangwang,
-    shuibai: window.shuibai,
+    shuojian: window.shuojian,
     daozhi: window.daozhi,
-    zuojian: window.zuojian,
+    yufu: window.yufu,
     lieyukou: window.lieyukou,
     tianxia: window.tianxia,
-    hongbeiming: window.hongbeiming,
+    gengsangchu: window.gengsangchu,
     zeyang: window.zeyang,
-    wawu: window.wawu,
-    jiquan: window.jiquan,
-    liezi: window.liezi,
-    tianda: window.tianda
+    wawu: window.wawu
 };
 
 // 初始化页面

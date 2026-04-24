@@ -1,4 +1,4 @@
-window.hongbeiming = {
+window.gengsangchu = {
     "title": "庚桑楚",
     "section": "杂篇",
     "sentences": [

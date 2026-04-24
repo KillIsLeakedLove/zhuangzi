@@ -1,4 +1,4 @@
-window.shuibai = {
+window.shuojian = {
     "title": "说剑",
     "section": "外篇",
     "sentences": [
