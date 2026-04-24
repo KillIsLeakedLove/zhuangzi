@@ -64,7 +64,7 @@
     visibility: hidden;
     transition: opacity 0.2s ease, visibility 0.2s ease;
     pointer-events: none;
-    z-index: 10;
+    z-index: 100;
 }
 
 .hz:hover::after {
