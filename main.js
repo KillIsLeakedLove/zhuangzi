@@ -19,7 +19,14 @@ const chapters = {
         { id: 'dasheng', title: '达生' },
         { id: 'shanshui', title: '山木' },
         { id: 'tianziyan', title: '田子方' },
-        { id: 'zhiman', title: '知北游' }
+        { id: 'zhiman', title: '知北游' },
+        { id: 'pianmu', title: '骈拇' },
+        { id: 'mati', title: '马蹄' },
+        { id: 'quqie', title: '胠箧' },
+        { id: 'zaiyou', title: '在宥' },
+        { id: 'tiandi', title: '天地' },
+        { id: 'keyi', title: '刻意' },
+        { id: 'shanxing', title: '缮性' }
     ],
     zapian: [
         { id: 'gengsangchu', title: '庚桑楚' },
@@ -31,7 +38,8 @@ const chapters = {
         { id: 'daozhi', title: '盗跖' },
         { id: 'yufu', title: '渔父' },
         { id: 'lieyukou', title: '列御寇' },
-        { id: 'tianxia', title: '天下' }
+        { id: 'tianxia', title: '天下' },
+        { id: 'xuwg', title: '徐无鬼' }
     ]
 };
 
@@ -61,13 +69,56 @@ const chapterData = {
     tianxia: window.tianxia,
     gengsangchu: window.gengsangchu,
     zeyang: window.zeyang,
-    wawu: window.wawu
+    wawu: window.wawu,
+    pianmu: window.pianmu,
+    mati: window.mati,
+    quqie: window.quqie,
+    zaiyou: window.zaiyou,
+    tiandi: window.tiandi,
+    keyi: window.keyi,
+    shanxing: window.shanxing,
+    xuwg: window.xuwg
 };
 
 // 初始化页面
 function init() {
     renderNavigation();
     setupEventListeners();
+    setupBackToTop();
+}
+
+// 设置返回顶部按钮
+function setupBackToTop() {
+    const backToTop = document.getElementById('back-to-top');
+    if (!backToTop) return;
+
+    const scrollContainer = document.querySelector('.scroll-container');
+
+    function checkScroll() {
+        let scrollTop = 0;
+        if (scrollContainer) {
+            scrollTop = scrollContainer.scrollTop;
+        } else {
+            scrollTop = window.scrollY || document.documentElement.scrollTop;
+        }
+        if (scrollTop > 300) {
+            backToTop.classList.add('visible');
+        } else {
+            backToTop.classList.remove('visible');
+        }
+    }
+
+    if (scrollContainer) {
+        scrollContainer.addEventListener('scroll', checkScroll);
+    }
+    window.addEventListener('scroll', checkScroll);
+
+    backToTop.addEventListener('click', () => {
+        if (scrollContainer) {
+            scrollContainer.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
 }
 
 // 渲染导航目录
@@ -214,12 +265,43 @@ function renderContent(data, chapter, sectionName) {
 // 渲染原文
 function renderOriginalText(data) {
     const container = document.getElementById('original-text');
+
+    // 生成段落快速导航
+    const quickNav = document.getElementById('quick-nav');
+    if (quickNav && data.sentences && data.sentences.length > 0) {
+        const navItems = data.sentences.map((s, index) => {
+            const preview = s.original.substring(0, 6) + (s.original.length > 6 ? '…' : '');
+            return `<button class="quick-nav-item" onclick="scrollToSentence(${index})" title="${s.original.substring(0, 20)}…">${index + 1}. ${preview}</button>`;
+        }).join('');
+        quickNav.innerHTML = navItems;
+        quickNav.style.display = 'flex';
+    } else if (quickNav) {
+        quickNav.style.display = 'none';
+    }
+
     container.innerHTML = data.sentences.map((s, index) => `
         <div class="sentence" data-index="${index}" onclick="toggleSentenceTranslation(${index})">
             <p class="original">${s.original}</p>
             <p class="translation" style="display: none;">${s.translation}</p>
         </div>
     `).join('');
+}
+
+// 平滑滚动到指定段落
+function scrollToSentence(index) {
+    const sentences = document.querySelectorAll('.sentence');
+    const target = sentences[index];
+    if (!target) return;
+
+    const scrollContainer = document.querySelector('.scroll-container');
+    if (scrollContainer) {
+        const containerTop = scrollContainer.getBoundingClientRect().top;
+        const targetTop = target.getBoundingClientRect().top;
+        const offset = targetTop - containerTop + scrollContainer.scrollTop - 20;
+        scrollContainer.scrollTo({ top: offset, behavior: 'smooth' });
+    } else {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
 }
 
 // 切换单个句子的译文显示

@@ -38,6 +38,14 @@
     <script src="content/gengsangchu.js"></script>
     <script src="content/zeyang.js"></script>
     <script src="content/wawu.js"></script>
+    <script src="content/pianmu.js"></script>
+    <script src="content/mati.js"></script>
+    <script src="content/quqie.js"></script>
+    <script src="content/zaiyou.js"></script>
+    <script src="content/tiandi.js"></script>
+    <script src="content/keyi.js"></script>
+    <script src="content/shanxing.js"></script>
+    <script src="content/xuwg.js"></script>
 </head>
 <body>
     <!-- 顶部工具栏 -->
@@ -102,6 +110,7 @@
                         <h2 id="chapter-title"></h2>
                     </header>
                     <div class="scroll-container">
+                        <div class="quick-nav" id="quick-nav" style="display: none;"></div>
                         <div class="original-text" id="original-text"></div>
                         <div class="interpretation-tabs" id="interpretation-tabs">
                             <div class="tab-nav">
@@ -126,6 +135,13 @@
             </div>
         </main>
     </div>
+
+    <!-- 返回顶部按钮 -->
+    <button class="back-to-top" id="back-to-top" aria-label="返回顶部">
+        <svg viewBox="0 0 24 24">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
 
     <script src="main.js"></script>
 </body>
