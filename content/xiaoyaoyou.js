@@ -3,7 +3,7 @@ window.xiaoyaoyou = {
     "section": "内篇",
     "sentences": [
         {
-            "original": "<span class=\"hz\" data-pinyin=\"míng\">冥</span>有鱼，其名为<span class=\"hz\" data-pinyin=\"kūn\">鲲</span>。鲲之大，不知其几千里也。化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将<span class=\"hz\" data-pinyin=\"xǐ\">徙</span>于南冥。南冥者，天池也。",
+            "original": "北<span class=\"hz\" data-pinyin=\"míng\">冥</span>有鱼，其名为<span class=\"hz\" data-pinyin=\"kūn\">鲲</span>。鲲之大，不知其几千里也。化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将<span class=\"hz\" data-pinyin=\"xǐ\">徙</span>于南冥。南冥者，天池也。",
             "translation": "北海有一条鱼，名叫鲲。鲲的身体之大，不知有几千里。它化身为鸟，名叫鹏。鹏的脊背，宽不知几千里；奋起高飞时，双翼如同天边的云彩。这只鸟，当大海翻腾、风暴涌起时，便要迁往南海。那南海，是天然形成的大池。"
         },
         {
