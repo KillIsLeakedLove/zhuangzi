@@ -234,7 +234,7 @@ html {
 .chapter-list {
     list-style: none;
     overflow: hidden;
-    max-height: 400px;
+    max-height: 800px;
     transition: max-height 0.3s ease, opacity 0.3s ease;
 }
 
@@ -378,49 +378,143 @@ html {
     letter-spacing: 0.08em;
 }
 
-/* 段落快速导航 */
+/* 段落快速导航 —— 固定时间线 */
 .quick-nav {
-    display: flex;
-    gap: 8px;
-    margin-bottom: 20px;
-    padding: 12px 16px;
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    overflow-x: auto;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    flex-wrap: nowrap;
-    white-space: nowrap;
+    position: sticky;
+    top: 0;
+    z-index: 15;
+    margin-bottom: 16px;
+    padding: 14px 0 10px;
+    background: var(--bg-primary);
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: grab;
+    transition: background-color 0.3s ease;
 }
 
-.quick-nav::-webkit-scrollbar {
+.quick-nav.dragging {
+    cursor: grabbing;
+}
+
+.timeline-track {
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding: 0 10px;
+}
+
+.timeline-track::-webkit-scrollbar {
     display: none;
 }
 
-.quick-nav-item {
-    flex-shrink: 0;
-    padding: 6px 14px;
-    border: 1px solid var(--border);
-    border-radius: 20px;
-    background: var(--bg-tertiary);
-    color: var(--text-secondary);
-    font-size: 0.82rem;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    font-family: inherit;
-    line-height: 1.4;
-    touch-action: manipulation;
+.timeline-track-inner {
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-width: min-content;
+    padding: 12px 30px 26px;
 }
 
-.quick-nav-item:hover {
+/* 水平连线 */
+.timeline-track-inner::before {
+    content: '';
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    top: 14px;
+    height: 2px;
+    background: var(--border);
+    border-radius: 1px;
+}
+
+/* 已访问段落连线高亮 */
+.timeline-track-inner::after {
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: 14px;
+    height: 2px;
     background: var(--accent);
-    color: #fff;
-    border-color: var(--accent);
+    border-radius: 1px;
+    width: 0;
+    transition: width 0.3s ease;
 }
 
-.quick-nav-item:active {
-    transform: scale(0.96);
+.timeline-node {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    min-width: 44px;
+    cursor: pointer;
+    padding: 0 6px;
+    transition: transform 0.15s ease;
+}
+
+.timeline-node:hover {
+    transform: translateY(-2px);
+}
+
+.timeline-node:active {
+    transform: scale(0.95);
+}
+
+.timeline-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--bg-secondary);
+    border: 2px solid var(--border);
+    flex-shrink: 0;
+    transition: all 0.25s ease;
+}
+
+.timeline-node:hover .timeline-dot,
+.timeline-node.active .timeline-dot {
+    background: var(--accent);
+    border-color: var(--accent);
+    box-shadow: 0 0 0 4px rgba(139, 115, 85, 0.15);
+}
+
+.timeline-label {
+    margin-top: 8px;
+    font-size: 0.68rem;
+    color: var(--text-muted);
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    transition: color 0.2s ease;
+    text-align: center;
+}
+
+.timeline-node:hover .timeline-label,
+.timeline-node.active .timeline-label {
+    color: var(--accent);
+}
+
+.timeline-tooltip {
+    position: absolute;
+    top: -36px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--sidebar-bg);
+    color: var(--sidebar-text);
+    font-size: 0.72rem;
+    padding: 4px 10px;
+    border-radius: 6px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    max-width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.timeline-node:hover .timeline-tooltip {
+    opacity: 1;
 }
 
 /* 原文区域 */
@@ -701,14 +795,41 @@ html {
     }
 
     .quick-nav {
-        padding: 10px 12px;
-        gap: 6px;
-        margin-bottom: 16px;
+        padding: 8px 0 6px;
+        margin-bottom: 12px;
     }
 
-    .quick-nav-item {
-        padding: 5px 12px;
-        font-size: 0.78rem;
+    .timeline-track-inner {
+        padding: 10px 20px 22px;
+    }
+
+    .timeline-track-inner::before {
+        left: 20px;
+        right: 20px;
+    }
+
+    .timeline-track-inner::after {
+        left: 20px;
+    }
+
+    .timeline-node {
+        min-width: 38px;
+        padding: 0 4px;
+    }
+
+    .timeline-dot {
+        width: 10px;
+        height: 10px;
+    }
+
+    .timeline-label {
+        font-size: 0.62rem;
+        margin-top: 6px;
+    }
+
+    .timeline-tooltip {
+        font-size: 0.65rem;
+        top: -30px;
     }
 }
 

@@ -266,15 +266,20 @@ function renderContent(data, chapter, sectionName) {
 function renderOriginalText(data) {
     const container = document.getElementById('original-text');
 
-    // 生成段落快速导航
+    // 生成段落快速导航（时间线样式）
     const quickNav = document.getElementById('quick-nav');
     if (quickNav && data.sentences && data.sentences.length > 0) {
-        const navItems = data.sentences.map((s, index) => {
-            const preview = s.original.substring(0, 6) + (s.original.length > 6 ? '…' : '');
-            return `<button class="quick-nav-item" onclick="scrollToSentence(${index})" title="${s.original.substring(0, 20)}…">${index + 1}. ${preview}</button>`;
+        const nodes = data.sentences.map((s, index) => {
+            const preview = s.original.substring(0, 16) + (s.original.length > 16 ? '…' : '');
+            return `<div class="timeline-node" data-timeline-index="${index}" onclick="scrollToSentence(${index})" title="第${index + 1}段">
+                <span class="timeline-tooltip">${preview}</span>
+                <span class="timeline-dot"></span>
+                <span class="timeline-label">${index + 1}</span>
+            </div>`;
         }).join('');
-        quickNav.innerHTML = navItems;
-        quickNav.style.display = 'flex';
+        quickNav.innerHTML = `<div class="timeline-track"><div class="timeline-track-inner">${nodes}</div></div>`;
+        quickNav.style.display = 'block';
+        setupTimelineDrag(quickNav);
     } else if (quickNav) {
         quickNav.style.display = 'none';
     }
@@ -287,11 +292,51 @@ function renderOriginalText(data) {
     `).join('');
 }
 
+// 设置时间线拖拽
+function setupTimelineDrag(navEl) {
+    const track = navEl.querySelector('.timeline-track');
+    if (!track) return;
+
+    let isDown = false;
+    let startX;
+    let scrollLeftStart;
+
+    track.addEventListener('mousedown', (e) => {
+        isDown = true;
+        navEl.classList.add('dragging');
+        startX = e.pageX - track.getBoundingClientRect().left;
+        scrollLeftStart = track.scrollLeft;
+    });
+
+    track.addEventListener('mouseleave', () => {
+        isDown = false;
+        navEl.classList.remove('dragging');
+    });
+
+    track.addEventListener('mouseup', () => {
+        isDown = false;
+        navEl.classList.remove('dragging');
+    });
+
+    track.addEventListener('mousemove', (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - track.getBoundingClientRect().left;
+        const walk = (x - startX) * 1.5;
+        track.scrollLeft = scrollLeftStart - walk;
+    });
+}
+
 // 平滑滚动到指定段落
 function scrollToSentence(index) {
     const sentences = document.querySelectorAll('.sentence');
     const target = sentences[index];
     if (!target) return;
+
+    // 标记当前活跃节点
+    document.querySelectorAll('.timeline-node').forEach(n => n.classList.remove('active'));
+    const activeNode = document.querySelector(`.timeline-node[data-timeline-index="${index}"]`);
+    if (activeNode) activeNode.classList.add('active');
 
     const scrollContainer = document.querySelector('.scroll-container');
     if (scrollContainer) {
