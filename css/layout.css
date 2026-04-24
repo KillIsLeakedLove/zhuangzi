@@ -105,3 +105,12 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+
+.site-footer {
+    text-align: center;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    padding: 60px 0 40px;
+    letter-spacing: 0.05em;
+    flex-shrink: 0;
+}
