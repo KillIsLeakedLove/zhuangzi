@@ -61,12 +61,13 @@ function renderOriginalText(data) {
     }
 
     container.innerHTML = data.sentences.map((s, index) => `
-        <div class="sentence" data-index="${index}" onclick="toggleSentenceTranslation(${index})">
+        <div class="sentence" id="s${index}" data-index="${index}" onclick="toggleSentenceTranslation(${index})">
             <p class="original">${s.original}</p>
             <p class="translation" style="display: none;">${s.translation}</p>
         </div>
     `).join('');
     setupHzTooltips();
+    setupSentenceObserver();
 }
 
 function setupHzTooltips() {
@@ -98,4 +99,27 @@ function setupHzTooltips() {
             tooltip.style.display = 'none';
         });
     });
+}
+
+function setupSentenceObserver() {
+    const scrollContainer = document.querySelector('.scroll-container');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const index = entry.target.dataset.index;
+                const hash = location.hash.slice(1);
+                const chapterId = hash.split('-')[0];
+                if (!chapterId) return;
+                const newHash = `${chapterId}-${index}`;
+                if (hash !== newHash) {
+                    history.replaceState(null, '', `#${newHash}`);
+                }
+            }
+        });
+    }, {
+        root: scrollContainer || null,
+        threshold: 0.3
+    });
+
+    document.querySelectorAll('.sentence').forEach(s => observer.observe(s));
 }

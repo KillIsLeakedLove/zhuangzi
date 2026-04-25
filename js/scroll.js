@@ -36,6 +36,12 @@ function scrollToSentence(index) {
     } else {
         target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
+
+    const hash = location.hash.slice(1);
+    const chapterId = hash.split('-')[0];
+    if (chapterId) {
+        history.replaceState(null, '', `#${chapterId}-${index}`);
+    }
 }
 
 function toggleSentenceTranslation(index) {

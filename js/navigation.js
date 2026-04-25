@@ -17,8 +17,7 @@ function setupEventListeners() {
             if (e.target.tagName === 'A') {
                 e.preventDefault();
                 const chapterId = e.target.dataset.chapter;
-                const section = e.target.dataset.section;
-                loadChapter(chapterId, section, e.target);
+                location.hash = `#${chapterId}`;
             }
         });
     });
@@ -53,4 +52,7 @@ function goHome() {
     document.getElementById('chapter-content').style.display = 'none';
     document.querySelectorAll('.chapter-list a').forEach(a => a.classList.remove('active'));
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    if (location.hash) {
+        history.pushState(null, '', location.pathname + location.search);
+    }
 }
