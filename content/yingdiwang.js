@@ -3,47 +3,58 @@ window.yingdiwang = {
     "section": "内篇",
     "sentences": [
         {
-            "original": "啮缺问于王倪，四问而四不知。啮缺因跃而大喜，行以告蒲衣子。蒲衣子曰：「而乃今知之乎？有虞氏不及泰氏。有虞氏，其犹藏仁以要人，亦得人矣，而未始出于非人。泰氏，其卧徐徐，其觉于于；一以己为马，一以己为牛；其知情信，其德甚真，而未始入于非人。」",
+            "original": "<span class=\"hz\" data-pinyin=\"niè\">啮</span><span class=\"hz\" data-pinyin=\"quē\">缺</span>问<span class=\"hz\" data-pinyin=\"yú\">于</span>王倪，四问而四不知。<span class=\"hz\" data-pinyin=\"niè\">啮</span><span class=\"hz\" data-pinyin=\"quē\">缺</span>因跃而大喜，行以告<span class=\"hz\" data-pinyin=\"pú\">蒲</span><span class=\"hz\" data-pinyin=\"yī\">衣</span>子。<span class=\"hz\" data-pinyin=\"pú\">蒲</span><span class=\"hz\" data-pinyin=\"yī\">衣</span>子曰：「而乃今知之乎？有虞氏不及泰氏。有虞氏，其犹藏仁以要人，亦得人矣，而未始出<span class=\"hz\" data-pinyin=\"yú\">于</span>非人。泰氏，其卧<span class=\"hz\" data-pinyin=\"xú\">徐</span><span class=\"hz\" data-pinyin=\"xú\">徐</span>，其觉<span class=\"hz\" data-pinyin=\"yú\">于</span><span class=\"hz\" data-pinyin=\"yú\">于</span>；一以己为马，一以己为牛；其知情信，其<span class=\"hz\" data-pinyin=\"dé\">德</span>甚真，而未始入<span class=\"hz\" data-pinyin=\"yú\">于</span>非人。」",
+
             "translation": "啮缺问王倪，问了四次都得到「不知道」的回答。啮缺因此高兴地跳起来，跑去告诉蒲衣子。蒲衣子说：「你现在明白了吗？有虞氏比不上泰氏。有虞氏怀着仁爱来邀结人心，也能得到人心，但未能超脱人为牵累。泰氏，睡觉时缓缓慢慢，醒来时无忧无虑；一会儿把自己当马，一会儿把自己当牛；他的智慧真实可信，德行纯真，从未陷入人为牵累。」"
         },
         {
-            "original": "肩吾见狂接舆。狂接舆曰：「日中始何以语汝？」肩吾曰：「告我：君人者以己出经式义度，人孰敢不听而化诸！」狂接舆曰：「是欺德也；其于治天下也，犹涉海凿河而使蚊负山也。夫圣人之治也，治外乎？正而后行，确乎能其事者而已矣。",
+            "original": "肩吾见狂接舆。狂接舆曰：「日中始何以语汝？」肩吾曰：「告我：君人者以己出<span class=\"hz\" data-pinyin=\"jīng\">经</span><span class=\"hz\" data-pinyin=\"shì\">式</span><span class=\"hz\" data-pinyin=\"yì\">义</span><span class=\"hz\" data-pinyin=\"dù\">度</span>，人孰敢不听而化诸！」狂接舆曰：「是<span class=\"hz\" data-pinyin=\"qī\">欺</span><span class=\"hz\" data-pinyin=\"dé\">德</span>也；其<span class=\"hz\" data-pinyin=\"yú\">于</span>治天下也，犹<span class=\"hz\" data-pinyin=\"shè\">涉</span>海<span class=\"hz\" data-pinyin=\"záo\">凿</span>河而使<span class=\"hz\" data-pinyin=\"wén\">蚊</span><span class=\"hz\" data-pinyin=\"fù\">负</span>山也。夫圣人之治也，治外乎？正而后行，<span class=\"hz\" data-pinyin=\"què\">确</span>乎能其事者而已矣。",
+
             "translation": "肩吾去见狂接舆。狂接舆问：「日中始告诉你什么？」肩吾说：「他告诉我：统治人民的君王凭自己制定法度，人民谁敢不听从而被感化！」狂接舆说：「这是欺德；用此法治理天下，如徒步涉海、开凿河道、让蚊子背山。圣人治理天下，是用法度治外表吗？先端正自己然后推行，只是让人确实做好各自的事罢了。」"
         },
         {
-            "original": "天根游于殷阳，至蓼水之上，适遭无名人而问焉，曰：「请问为天下。」无名人曰：「去！汝鄙人也，何问之不豫也！予方将与造物者为人，厌则又乘夫莽眇之鸟，以出六极之外，而游无何有之乡，以处圹埌之野。汝又何帛以治天下感予之心为？」",
+            "original": "天根游<span class=\"hz\" data-pinyin=\"yú\">于</span>殷<span class=\"hz\" data-pinyin=\"yáng\">阳</span>，至<span class=\"hz\" data-pinyin=\"liǎo\">蓼</span>水之上，适遭<span class=\"hz\" data-pinyin=\"wú\">无</span><span class=\"hz\" data-pinyin=\"míng\">名</span>人而问焉，曰：「请问为天下。」<span class=\"hz\" data-pinyin=\"wú\">无</span><span class=\"hz\" data-pinyin=\"míng\">名</span>人曰：「去！汝鄙人也，何问之不豫也！予方将与造物者为人，厌则又乘夫<span class=\"hz\" data-pinyin=\"mǎng\">莽</span><span class=\"hz\" data-pinyin=\"miǎo\">眇</span>之鸟，以出六极之外，而游<span class=\"hz\" data-pinyin=\"wú\">无</span>何有之<span class=\"hz\" data-pinyin=\"xiāng\">乡</span>，以处<span class=\"hz\" data-pinyin=\"kuàng\">圹</span><span class=\"hz\" data-pinyin=\"làng\">埌</span>之野。汝又何<span class=\"hz\" data-pinyin=\"bó\">帛</span>以治天下感予之<span class=\"hz\" data-pinyin=\"xīn\">心</span>为？」",
+
             "translation": "天根在殷山南面游玩，来到蓼水岸上，恰好碰到无名人便问道：「请问怎样治理天下。」无名人说：「走开！你这个鄙陋的人，为什么问这样让人不快的问题！我正要和造物者为伴，厌烦了就乘那轻虚飘渺的鸟飞出天地四方之外，遨游于虚无之地，居住于广阔旷野。你又为什么用治理天下的话来触动我的心？」"
         },
         {
-            "original": "阳子居见老聃，曰：「有人于此，向疾强梁，物彻疏明，学道不倦。如是者，可比明王乎？」老聃曰：「是于圣人也，胥易技系，劳形怵心者也。且也虎豹之文来田，猿狙之便执斄之狗来藉。如是者，可比明王乎？」",
+            "original": "<span class=\"hz\" data-pinyin=\"yáng\">阳</span>子<span class=\"hz\" data-pinyin=\"jū\">居</span>见老聃，曰：「有人<span class=\"hz\" data-pinyin=\"yú\">于</span>此，<span class=\"hz\" data-pinyin=\"xiàng\">向</span><span class=\"hz\" data-pinyin=\"jí\">疾</span><span class=\"hz\" data-pinyin=\"qiáng\">强</span><span class=\"hz\" data-pinyin=\"liáng\">梁</span>，物<span class=\"hz\" data-pinyin=\"chè\">彻</span><span class=\"hz\" data-pinyin=\"shū\">疏</span>明，学道不倦。如是者，可比明王乎？」老聃曰：「是<span class=\"hz\" data-pinyin=\"yú\">于</span>圣人也，<span class=\"hz\" data-pinyin=\"xū\">胥</span><span class=\"hz\" data-pinyin=\"yì\">易</span><span class=\"hz\" data-pinyin=\"jì\">技</span><span class=\"hz\" data-pinyin=\"xì\">系</span>，劳形<span class=\"hz\" data-pinyin=\"chù\">怵</span><span class=\"hz\" data-pinyin=\"xīn\">心</span>者也。且也<span class=\"hz\" data-pinyin=\"hǔ\">虎</span><span class=\"hz\" data-pinyin=\"bào\">豹</span>之<span class=\"hz\" data-pinyin=\"wén\">文</span>来<span class=\"hz\" data-pinyin=\"tián\">田</span>，<span class=\"hz\" data-pinyin=\"yuán\">猿</span><span class=\"hz\" data-pinyin=\"jū\">狙</span>之<span class=\"hz\" data-pinyin=\"biàn\">便</span>执斄之狗来<span class=\"hz\" data-pinyin=\"jí\">藉</span>。如是者，可比明王乎？」",
+
             "translation": "阳子居去见老子，说：「有这样一个人，敏捷果敢，洞察事物清明通透，学道孜孜不倦。像这样的人，可比得上明王吗？」老子说：「这样的人在圣人看来，只是像胥吏那样变换技艺、被技能束缚，劳累形体、惊扰心神的人。况且虎豹因皮毛有花纹而招来猎捕，猿猴因敏捷、猎狗因能捉犛牛而招来束缚。像这样的人，可比得上明王吗？」"
         },
         {
-            "original": "阳子居蹴然曰：「敢问明王之治。」老聃曰：「明王之治：功盖天下而似不自己，化贷万物而民弗恃；有莫举名，使物自喜；立乎不测，而游于无有者也。」",
+            "original": "<span class=\"hz\" data-pinyin=\"yáng\">阳</span>子<span class=\"hz\" data-pinyin=\"jū\">居</span><span class=\"hz\" data-pinyin=\"cù\">蹴</span>然曰：「敢问明王之治。」老聃曰：「明王之治：功盖天下而似不自己，化<span class=\"hz\" data-pinyin=\"dài\">贷</span>万物而民弗<span class=\"hz\" data-pinyin=\"shì\">恃</span>；有莫举<span class=\"hz\" data-pinyin=\"míng\">名</span>，使物自喜；立乎不测，而游<span class=\"hz\" data-pinyin=\"yú\">于</span><span class=\"hz\" data-pinyin=\"wú\">无</span>有者也。」",
+
             "translation": "阳子居恭敬地问：「请问明王是怎样治理的。」老子说：「明王的治理：功业盖过天下却好像不是出自自己，教化施及万物而人民不依赖他；有功德却无可称名，使万物各得其所而自得其乐；立足于不可测度之境，而遨游于虚无的境地。」"
         },
         {
-            "original": "郑有神巫曰季咸，知人之死生存亡、祸福寿夭，期以岁月旬日，若神。郑人见之，皆弃而走。列子见之而心醉，归，以告壶子，曰：「始吾以夫子之道为至矣，则又有至焉者矣。」",
+            "original": "郑有神<span class=\"hz\" data-pinyin=\"wū\">巫</span>曰季<span class=\"hz\" data-pinyin=\"xián\">咸</span>，知人之死生存亡、祸福寿夭，<span class=\"hz\" data-pinyin=\"jī\">期</span>以岁月<span class=\"hz\" data-pinyin=\"xún\">旬</span>日，<span class=\"hz\" data-pinyin=\"ruò\">若</span>神。郑人见之，皆弃而走。列子见之而<span class=\"hz\" data-pinyin=\"xīn\">心</span><span class=\"hz\" data-pinyin=\"zuì\">醉</span>，归，以告<span class=\"hz\" data-pinyin=\"hú\">壶</span>子，曰：「始吾以夫子之道为至矣，则又有至焉者矣。」",
+
             "translation": "郑国有个神巫叫季咸，能知道人的死生、存亡、祸福、寿夭，预言的年月旬日准确如神。郑国人见到他，都惊慌逃走。列子见到他而心醉神往，回去告诉壶子说：「起初我以为先生的道最高了，却又有更高的了。」"
         },
         {
-            "original": "明日，列子与之见壶子。出而谓列子曰：「嘻！子之先生死矣！弗活矣！不以旬数矣！吾见怪焉，见湿灰焉。」列子入，泣涕沾襟以告壶子。壶子曰：「乡吾示之以地文，萌乎不震不正。是殆见吾杜德机也。尝又与来。」",
+            "original": "明日，列子与之见<span class=\"hz\" data-pinyin=\"hú\">壶</span>子。出而谓列子曰：「嘻！子之先生死矣！弗活矣！不以<span class=\"hz\" data-pinyin=\"xún\">旬</span>数矣！吾见怪焉，见湿灰焉。」列子入，泣涕沾襟以告<span class=\"hz\" data-pinyin=\"hú\">壶</span>子。<span class=\"hz\" data-pinyin=\"hú\">壶</span>子曰：「<span class=\"hz\" data-pinyin=\"xiāng\">乡</span>吾示之以地<span class=\"hz\" data-pinyin=\"wén\">文</span>，萌乎不震不正。是殆见吾<span class=\"hz\" data-pinyin=\"dù\">杜</span><span class=\"hz\" data-pinyin=\"dé\">德</span><span class=\"hz\" data-pinyin=\"jī\">机</span>也。尝又与来。」",
+
             "translation": "第二天，列子带季咸来见壶子。季咸出来后对列子说：「唉！你的先生要死了！活不成了！过不了十天了！我看见怪状，看见湿灰一样的死气。」列子进去，哭得眼泪沾湿衣襟，告诉壶子。壶子说：「刚才我显示给他看的是地象，萌动而不震不正。这大概是看见我闭塞了生机。再带他来看看。」"
         },
         {
-            "original": "明日，又与之见壶子。出而谓列子曰：「幸矣，子之先生遇我也！有瘳矣，全然有生矣！吾见其杜权矣。」列子入，以告壶子。壶子曰：「乡吾示之以天壤，名实不入，而机发于踵。是殆见吾善者机也。尝又与来。」",
+            "original": "明日，又与之见<span class=\"hz\" data-pinyin=\"hú\">壶</span>子。出而谓列子曰：「幸矣，子之先生遇我也！有<span class=\"hz\" data-pinyin=\"chōu\">瘳</span>矣，全然有生矣！吾见其<span class=\"hz\" data-pinyin=\"dù\">杜</span><span class=\"hz\" data-pinyin=\"quán\">权</span>矣。」列子入，以告<span class=\"hz\" data-pinyin=\"hú\">壶</span>子。<span class=\"hz\" data-pinyin=\"hú\">壶</span>子曰：「<span class=\"hz\" data-pinyin=\"xiāng\">乡</span>吾示之以天壤，<span class=\"hz\" data-pinyin=\"míng\">名</span>实不入，而<span class=\"hz\" data-pinyin=\"jī\">机</span>发<span class=\"hz\" data-pinyin=\"yú\">于</span><span class=\"hz\" data-pinyin=\"zhǒng\">踵</span>。是殆见吾善者<span class=\"hz\" data-pinyin=\"jī\">机</span>也。尝又与来。」",
+
             "translation": "第二天，又带季咸来见壶子。季咸出来后对列子说：「幸运啊，你的先生遇到我！有救了，完全有生机了！我看见他闭塞的生机开始活动了。」列子进去，告诉壶子。壶子说：「刚才我显示给他看的是天壤之象，名实不入于心，而生机发自脚跟。这大概是看见我善的生机。再带他来看看。」"
         },
         {
-            "original": "明日，又与之见壶子。立未定，自失而走。壶子曰：「追之！」列子追之不及。反，以报壶子曰：「已灭矣，已失矣，吾弗及已。」壶子曰：「乡吾示之以未始出吾宗。吾与之虚而委蛇，不知其谁何，因以为弟靡，因以为波流，故逃也。」",
+            "original": "明日，又与之见<span class=\"hz\" data-pinyin=\"hú\">壶</span>子。立未定，自失而走。<span class=\"hz\" data-pinyin=\"hú\">壶</span>子曰：「追之！」列子追之不及。反，以报<span class=\"hz\" data-pinyin=\"hú\">壶</span>子曰：「已灭矣，已失矣，吾弗及已。」<span class=\"hz\" data-pinyin=\"hú\">壶</span>子曰：「<span class=\"hz\" data-pinyin=\"xiāng\">乡</span>吾示之以未始出吾宗。吾与之虚而委蛇，不知其谁何，因以为<span class=\"hz\" data-pinyin=\"tì\">弟</span><span class=\"hz\" data-pinyin=\"mǐ\">靡</span>，因以为<span class=\"hz\" data-pinyin=\"bō\">波</span><span class=\"hz\" data-pinyin=\"liú\">流</span>，故逃也。」",
+
             "translation": "第二天，又带季咸来见壶子。季咸还没站稳，就惊慌逃走。壶子说：「追他！」列子追不上。回来报告壶子说：「已经不见了，已经失去了，我追不上了。」壶子说：「刚才我显示给他看的是还没有出示我的根本大道。我与他虚己而随顺，他不知道我是什么，因而以为我随波逐流，所以逃走了。」"
         },
         {
-            "original": "无为名尸，无为谋府；无为事任，无为知主。体尽无穷，而游无朕；尽其所受乎天，而无见得，亦虚而已。至人之用心若镜，不将不迎，应而不藏，故能胜物而不伤。",
+            "original": "<span class=\"hz\" data-pinyin=\"wú\">无</span>为<span class=\"hz\" data-pinyin=\"míng\">名</span>尸，<span class=\"hz\" data-pinyin=\"wú\">无</span>为谋府；<span class=\"hz\" data-pinyin=\"wú\">无</span>为事任，<span class=\"hz\" data-pinyin=\"wú\">无</span>为知主。体尽<span class=\"hz\" data-pinyin=\"wú\">无</span>穷，而游<span class=\"hz\" data-pinyin=\"wú\">无</span><span class=\"hz\" data-pinyin=\"zhèn\">朕</span>；尽其所受乎天，而<span class=\"hz\" data-pinyin=\"wú\">无</span>见得，亦虚而已。至人之用<span class=\"hz\" data-pinyin=\"xīn\">心</span><span class=\"hz\" data-pinyin=\"ruò\">若</span>镜，不将不迎，应而不藏，故能胜物而不伤。",
+
             "translation": "不要成为名声的尸主，不要成为谋虑的府库；不要成为事务的任使，不要成为智慧的主宰。体悟穷尽无穷的大道，而遨游于无迹之境；尽享所受于自然的本性，而不自以为有所得，这也只是虚己罢了。至人的用心像镜子一样，不送不迎，应接而不隐藏，所以能胜过外物而不被伤害。"
         },
         {
-            "original": "南海之帝为倏，北海之帝为忽，中央之帝为浑沌。倏与忽时相与遇于浑沌之地，浑沌待之甚善。倏与忽谋报浑沌之德，曰：「人皆有七窍以视听食息，此独无有，尝试凿之。」日凿一窍，七日而浑沌死。",
+            "original": "南海之帝为<span class=\"hz\" data-pinyin=\"shū\">倏</span>，北海之帝为<span class=\"hz\" data-pinyin=\"hū\">忽</span>，中央之帝为<span class=\"hz\" data-pinyin=\"hún\">浑</span><span class=\"hz\" data-pinyin=\"dùn\">沌</span>。<span class=\"hz\" data-pinyin=\"shū\">倏</span>与<span class=\"hz\" data-pinyin=\"hū\">忽</span>时相与遇<span class=\"hz\" data-pinyin=\"yú\">于</span><span class=\"hz\" data-pinyin=\"hún\">浑</span><span class=\"hz\" data-pinyin=\"dùn\">沌</span>之地，<span class=\"hz\" data-pinyin=\"hún\">浑</span><span class=\"hz\" data-pinyin=\"dùn\">沌</span>待之甚善。<span class=\"hz\" data-pinyin=\"shū\">倏</span>与<span class=\"hz\" data-pinyin=\"hū\">忽</span>谋报<span class=\"hz\" data-pinyin=\"hún\">浑</span><span class=\"hz\" data-pinyin=\"dùn\">沌</span>之<span class=\"hz\" data-pinyin=\"dé\">德</span>，曰：「人皆有七<span class=\"hz\" data-pinyin=\"qiào\">窍</span>以视听食息，此独<span class=\"hz\" data-pinyin=\"wú\">无</span>有，尝试<span class=\"hz\" data-pinyin=\"záo\">凿</span>之。」日<span class=\"hz\" data-pinyin=\"záo\">凿</span>一<span class=\"hz\" data-pinyin=\"qiào\">窍</span>，七日而<span class=\"hz\" data-pinyin=\"hún\">浑</span><span class=\"hz\" data-pinyin=\"dùn\">沌</span>死。",
+
             "translation": "南海的帝王叫倏，北海的帝王叫忽，中央的帝王叫浑沌。倏和忽时常在浑沌的地方相遇，浑沌待他们很好。倏和忽商量报答浑沌的恩德，说：「人都有七窍用来看、听、吃、呼吸，唯独浑沌没有，试着给他开凿出来。」每天开凿一窍，七天之后浑沌死了。"
         }
     ],
