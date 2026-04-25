@@ -11,8 +11,7 @@ function init() {
 function parseHash() {
     const hash = location.hash.slice(1);
     if (!hash) return null;
-    const [chapterId, sentenceIndex] = hash.split('-');
-    return { chapterId, sentenceIndex: sentenceIndex !== undefined ? parseInt(sentenceIndex, 10) : null };
+    return { chapterId: hash.split('-')[0] };
 }
 
 function findChapterInfo(chapterId) {
@@ -31,9 +30,6 @@ function handleHashOnLoad() {
     const link = document.querySelector(`.chapter-list a[data-chapter="${parsed.chapterId}"]`);
     if (!link) return;
     loadChapter(parsed.chapterId, info.section, link);
-    if (parsed.sentenceIndex !== null && !isNaN(parsed.sentenceIndex)) {
-        setTimeout(() => scrollToSentence(parsed.sentenceIndex), 150);
-    }
 }
 
 function handleHashChange() {
