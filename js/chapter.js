@@ -24,6 +24,15 @@ function loadChapter(chapterId, section, linkElement) {
 
     renderContent(data, chapter, sectionNames[section]);
     window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    const scrollContainer = document.querySelector('.scroll-container');
+    if (scrollContainer) scrollContainer.scrollTop = 0;
+
+    window._ignoreObserver = true;
+    clearTimeout(window._observerResumeTimer);
+    window._observerResumeTimer = setTimeout(() => {
+        window._ignoreObserver = false;
+    }, 100);
 }
 
 function renderContent(data, chapter, sectionName) {
@@ -103,23 +112,33 @@ function setupHzTooltips() {
 
 function setupSentenceObserver() {
     const scrollContainer = document.querySelector('.scroll-container');
+    if (window._sentenceObserver) window._sentenceObserver.disconnect();
+
     const observer = new IntersectionObserver((entries) => {
+        if (window._ignoreObserver) return;
+
+        let topVisible = null;
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                const index = entry.target.dataset.index;
-                const hash = location.hash.slice(1);
-                const chapterId = hash.split('-')[0];
-                if (!chapterId) return;
-                const newHash = `${chapterId}-${index}`;
-                if (hash !== newHash) {
-                    history.replaceState(null, '', `#${newHash}`);
-                }
+                const idx = parseInt(entry.target.dataset.index, 10);
+                if (topVisible === null || idx < topVisible) topVisible = idx;
             }
         });
+
+        if (topVisible !== null) {
+            const hash = location.hash.slice(1);
+            const chapterId = hash.split('-')[0];
+            if (!chapterId) return;
+            const newHash = `${chapterId}-${topVisible}`;
+            if (hash !== newHash) {
+                history.replaceState(null, '', `#${newHash}`);
+            }
+        }
     }, {
         root: scrollContainer || null,
         threshold: 0.3
     });
 
     document.querySelectorAll('.sentence').forEach(s => observer.observe(s));
+    window._sentenceObserver = observer;
 }

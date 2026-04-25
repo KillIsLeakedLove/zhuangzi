@@ -25,6 +25,9 @@ function scrollToSentence(index) {
     const target = sentences[index];
     if (!target) return;
 
+    window._ignoreObserver = true;
+    clearTimeout(window._observerResumeTimer);
+
     document.querySelectorAll('.timeline-node').forEach(n => n.classList.remove('active'));
     const activeNode = document.querySelector(`.timeline-node[data-timeline-index="${index}"]`);
     if (activeNode) activeNode.classList.add('active');
@@ -42,6 +45,10 @@ function scrollToSentence(index) {
     if (chapterId) {
         history.replaceState(null, '', `#${chapterId}-${index}`);
     }
+
+    window._observerResumeTimer = setTimeout(() => {
+        window._ignoreObserver = false;
+    }, 600);
 }
 
 function toggleSentenceTranslation(index) {
