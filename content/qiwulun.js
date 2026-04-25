@@ -7,7 +7,7 @@ window.qiwulun = {
             "translation": "南郭子綦靠着几案静坐，仰头向天缓缓吐气，那样子像是灵魂出窍一般。弟子颜成子游侍立跟前，问道：「老师这是怎么了？形体固然可以像枯木，心难道也可以像死灰吗？今天靠着几案的人，不像从前靠着几案的人了。」子綦说：「偃，你问得好啊！刚才我达到了『丧我』的境界，你可知道？你听说过人籁，却没听过地籁；你听说过地籁，却没听过天籁啊！」"
         },
         {
-            "original": "子游曰：「敢问其方。」子綦曰：「夫大块<span class=\"hz\" data-pinyin=\"yī\">噫</span>气，其名为风。是唯无作，作则万窍怒<span class=\"hz\" data-pinyin=\"háo\">呺</span>。而独不闻之<span class=\"hz\" data-pinyin=\"liáo\">翏翏</span>乎？山林之<span class=\"hz\" data-pinyin=\"wēi\">畏佳</span>，大木百围之窍穴，似鼻，似口，似耳，似<span class=\"hz\" data-pinyin=\"jī\">枅</span>，似圈，似臼，似<span class=\"hz\" data-pinyin=\"wā\">洼</span>者，似污者。<span class=\"hz\" data-pinyin=\"jī\">激</span>者、<span class=\"hz\" data-pinyin=\"xiāo\">謞</span>者、叱者、吸者、叫者、<span class=\"hz\" data-pinyin=\"háo\">譹</span>者、<span class=\"hz\" data-pinyin=\"yǎo\">宎</span>者、咬者，前者唱于而随者唱<span class=\"hz\" data-pinyin=\"yóng\">喁</span>。<span class=\"hz\" data-pinyin=\"líng\">泠</span>风则小和，飘风则大和，厉风济则众窍为虚。而独不见之<span class=\"hz\" data-pinyin=\"tiáo\">调调</span>之<span class=\"hz\" data-pinyin=\"diāo\">刁刁</span>乎？」",
+            "original": "子游曰：「敢问其方。」子綦曰：「夫大块<span class=\"hz\" data-pinyin=\"yī\">噫</span>气，其名为风。是唯无作，作则万窍怒<span class=\"hz\" data-pinyin=\"háo\">呺</span>。而独不闻之<span class=\"hz\" data-pinyin=\"liáo liáo\">翏翏</span>乎？山林之<span class=\"hz\" data-pinyin=\"wēi jiā\">畏佳</span>，大木百围之窍穴，似鼻，似口，似耳，似<span class=\"hz\" data-pinyin=\"jī\">枅</span>，似圈，似臼，似<span class=\"hz\" data-pinyin=\"wā\">洼</span>者，似污者。<span class=\"hz\" data-pinyin=\"jī\">激</span>者、<span class=\"hz\" data-pinyin=\"xiāo\">謞</span>者、叱者、吸者、叫者、<span class=\"hz\" data-pinyin=\"háo\">譹</span>者、<span class=\"hz\" data-pinyin=\"yǎo\">宎</span>者、咬者，前者唱于而随者唱<span class=\"hz\" data-pinyin=\"yóng\">喁</span>。<span class=\"hz\" data-pinyin=\"líng\">泠</span>风则小和，飘风则大和，厉风济则众窍为虚。而独不见之<span class=\"hz\" data-pinyin=\"tiáo tiáo\">调调</span>之<span class=\"hz\" data-pinyin=\"diāo diāo\">刁刁</span>乎？」",
             "translation": "子游问：「请问这是什么道理？」子綦说：「大地吐出的气，叫做风。这风不发作则已，一发作便使万千孔窍怒吼呼啸。你没听过那长风之声吗？那起伏的山林，百围大树上的孔穴，有的像鼻子，有的像嘴巴，有的像耳朵，有的像横木，有的像圆圈，有的像舂臼，有的像深池，有的像浅洼。发出的声音或如激流，或如飞箭，或如叱责，或如呼吸，或如叫喊，或如嚎哭，或如沉吟，或如哀鸣。前面的风声呜呜唱着，后面的风声呼呼和着。微风则小声应和，狂风则大声应和，烈风停止则众窍虚空。你没见过那草木摇摇晃晃的样子吗？」"
         },
         {
@@ -15,7 +15,7 @@ window.qiwulun = {
             "translation": "子游说：「地籁是众孔窍发出的声音，人籁是竹箫等乐器发出的声音，请问什么是天籁？」子綦说：「风吹万千孔窍，发出各不相同的声音，使这些声音停止的都是它们自己。声音的产生都是孔窍自己造成的，发动它们的还有谁呢！」"
         },
         {
-            "original": "大知<span class=\"hz\" data-pinyin=\"xián\">闲闲</span>，小知<span class=\"hz\" data-pinyin=\"jiàn\">间间</span>；大言<span class=\"hz\" data-pinyin=\"yán\">炎炎</span>，小言<span class=\"hz\" data-pinyin=\"zhān\">詹詹</span>。其寐也魂交，其觉也形开，与接为构，日以心斗。<span class=\"hz\" data-pinyin=\"màn\">缦</span>者，<span class=\"hz\" data-pinyin=\"jiào\">窖</span>者，密者。小恐<span class=\"hz\" data-pinyin=\"zhuì\">惴惴</span>，大恐<span class=\"hz\" data-pinyin=\"màn\">缦缦</span>。其发若机<span class=\"hz\" data-pinyin=\"kuò\">栝</span>，其司是非之谓也；其留如<span class=\"hz\" data-pinyin=\"zǔ\">诅</span>盟，其守胜之谓也；其杀若秋冬，以言其日消也；其溺之所为之，不可使复之也；其厌也如缄，以言其老<span class=\"hz\" data-pinyin=\"xù\">洫</span>也；近死之心，莫使复阳也。",
+            "original": "大知<span class=\"hz\" data-pinyin=\"xián xián\">闲闲</span>，小知<span class=\"hz\" data-pinyin=\"jiàn jiàn\">间间</span>；大言<span class=\"hz\" data-pinyin=\"yán yán\">炎炎</span>，小言<span class=\"hz\" data-pinyin=\"zhān zhān\">詹詹</span>。其寐也魂交，其觉也形开，与接为构，日以心斗。<span class=\"hz\" data-pinyin=\"màn\">缦</span>者，<span class=\"hz\" data-pinyin=\"jiào\">窖</span>者，密者。小恐<span class=\"hz\" data-pinyin=\"zhuì zhuì\">惴惴</span>，大恐<span class=\"hz\" data-pinyin=\"màn màn\">缦缦</span>。其发若机<span class=\"hz\" data-pinyin=\"kuò\">栝</span>，其司是非之谓也；其留如<span class=\"hz\" data-pinyin=\"zǔ\">诅</span>盟，其守胜之谓也；其杀若秋冬，以言其日消也；其溺之所为之，不可使复之也；其厌也如缄，以言其老<span class=\"hz\" data-pinyin=\"xù\">洫</span>也；近死之心，莫使复阳也。",
             "translation": "大智广博从容，小智精细狭隘；大言气势凌人，小言争辩不休。这种人睡时神魂交错，醒后形体不宁，与外界接触就勾心斗角，天天互相争斗。有的故作深沉，有的言辞隐密。小恐惧时惴惴不安，大恐惧时惊惶失措。他们发言如射出的箭，急于窥伺别人是非；他们沉默时像赌咒，等待致胜的机会；他们衰败如秋冬草木，一天天消亡；他们沉溺于所为，无法恢复本真；他们心灵闭塞如被绳索捆绑，已经老朽衰败；走向死亡的心，无法恢复生机。"
         },
         {
@@ -23,7 +23,7 @@ window.qiwulun = {
             "translation": "喜怒哀乐，忧虑感叹，变化无常，轻佻放纵，这些心理状态如乐声从空虚的乐器中发出，如菌类由地气蒸发而成。日日夜夜在眼前交替变化，却不知它们从何而来。算了吧，算了吧！一旦悟到这些情态产生的道理，也就明白它们所以产生的根由了！"
         },
         {
-            "original": "非彼无我，非我无所取。是亦近矣，而不知其所为使。若有<span class=\"hz\" data-pinyin=\"zǎi\">真宰</span>，而特不得其<span class=\"hz\" data-pinyin=\"zhèn\">眹</span>。可行己信，而不见其形，有情而无形。百骸、九窍、六<span class=\"hz\" data-pinyin=\"zàng\">藏</span>，<span class=\"hz\" data-pinyin=\"gāi\">赅</span>而存焉，吾谁与为亲？汝皆说之乎？其有私焉？如是皆有为臣妾乎？其臣妾不足以相治乎？其递相为君臣乎？其有真君存焉！如求得其情与不得，无益损乎其真。",
+            "original": "非彼无我，非我无所取。是亦近矣，而不知其所为使。若有真<span class=\"hz\" data-pinyin=\"zǎi\">宰</span>，而特不得其<span class=\"hz\" data-pinyin=\"zhèn\">眹</span>。可行己信，而不见其形，有情而无形。百骸、九窍、六<span class=\"hz\" data-pinyin=\"zàng\">藏</span>，<span class=\"hz\" data-pinyin=\"gāi\">赅</span>而存焉，吾谁与为亲？汝皆说之乎？其有私焉？如是皆有为臣妾乎？其臣妾不足以相治乎？其递相为君臣乎？其有真君存焉！如求得其情与不得，无益损乎其真。",
             "translation": "没有那些情态就没有我，没有我那些情态就无从体现。这和真理很接近了，却不知是什么在支配。好像有真宰在主宰，却找不到它的迹象。可以感受到它的作用，却看不到它的形体，它是真实的存在却没有形相。百骸、九窍、六脏，完备地存在于我的身体，我和哪一部分最亲近？你都喜欢它们吗？还是有所偏爱？如果这样它们都是臣妾吗？臣妾之间不能互相治理吗？还是让它们轮流做君臣？确实有真君存在！无论能否求得它的实情，都不增益也不减损它的真实。"
         },
         {
@@ -31,7 +31,7 @@ window.qiwulun = {
             "translation": "一旦禀受形体，就不消亡地等待耗尽。与外物相互摩擦消耗，如奔驰一样走向尽头，无法停止，不也很可悲吗！终身劳碌而不见成功，疲惫不堪而不知归宿，不也很悲哀吗！别人说他活着，有什么益处！形体变化，心灵也跟着消损，不可以说是大悲哀吗？人生在世，本来就是这样愚昧吗？还是只有我一个人愚昧，而别人也有不愚昧的呢？"
         },
         {
-            "original": "夫随其<span class=\"hz\" data-pinyin=\"chéng\">成心</span>而师之，谁独且无师乎？奚必知代而心自取者有之？愚者与有焉。未成乎心而有是非，是今日适越而昔至也。是以无有为有。无有为有，虽有神禹且不能知，吾独且奈何哉！",
+            "original": "夫随其成心而师之，谁独且无师乎？奚必知代而心自取者有之？愚者与有焉。未成乎心而有是非，是今日适越而昔至也。是以无有为有。无有为有，虽有神禹且不能知，吾独且奈何哉！",
             "translation": "如果依据自己心中的成见作为判断标准，那么谁没有标准呢？何必需要知道事物变化之理而心有所得的人才有呢？愚昧的人也有。如果心中没有形成成见却先有是非判断，这就像今天才到越国而昨天就到了。这就是把不可能的事当作可能。把不可能的事当作可能，即使神明的大禹也不能明白，我又能怎么样呢！"
         },
         {
@@ -103,7 +103,7 @@ window.qiwulun = {
             "translation": "天下没有比秋毫的末端更大的，而泰山算是小的；没有比夭折的婴儿更长寿的，而彭祖算是短命的。天地和我一同生存，万物和我合为一体。"
         },
         {
-            "original": "既已为一矣，且得有言乎？既已谓之一矣，且得无言乎？一与言为二，二与一为三。自此以往，<span class=\"hz\" data-pinyin=\"lì\">巧历</span>不能得，而况其凡乎！故自无适有以至于三，而况自有适有乎！无适焉，因是已。",
+            "original": "既已为一矣，且得有言乎？既已谓之一矣，且得无言乎？一与言为二，二与一为三。自此以往，巧历不能得，而况其凡乎！故自无适有以至于三，而况自有适有乎！无适焉，因是已。",
             "translation": "既然已经合为一体了，还能有所言论吗？既然已经说它合为一体了，还能说没有言论吗？一体加上言论就成为二，二再加上一就成为三。这样往下算，精于计算的人也不能得出最后的数目，何况凡人呢！所以从无到有而达到三，何况从有到有呢！不必再往下推了，顺应自然就是了。"
         },
         {
@@ -127,15 +127,15 @@ window.qiwulun = {
             "translation": "从前尧问舜说：「我想讨伐宗、脍、胥敖三个小国，每当上朝就心里不痛快。这是为什么呢？」舜说：「那三个小国的君主，就像生存在蓬蒿艾草中间一样。你为什么不能释怀呢？从前十个太阳同时出来，普照万物，何况道德的光辉超过太阳呢！」"
         },
         {
-            "original": "<span class=\"hz\" data-pinyin=\"niè\">啮</span>缺问乎王<span class=\"hz\" data-pinyin=\"ní\">倪</span>曰：「子知物之所同是乎？」曰：「吾恶乎知之！」「子知子之所不知邪？」曰：「吾恶乎知之！」「然则物无知邪？」曰：「吾恶乎知之！虽然，尝试言之。<span class=\"hz\" data-pinyin=\"yōng\">庸讵</span>知吾所谓知之非不知邪？庸讵知吾所谓不知之非知邪？」",
+            "original": "<span class=\"hz\" data-pinyin=\"niè\">啮</span>缺问乎王<span class=\"hz\" data-pinyin=\"ní\">倪</span>曰：「子知物之所同是乎？」曰：「吾恶乎知之！」「子知子之所不知邪？」曰：「吾恶乎知之！」「然则物无知邪？」曰：「吾恶乎知之！虽然，尝试言之。庸<span class=\"hz\" data-pinyin=\"jù\">讵</span>知吾所谓知之非不知邪？庸讵知吾所谓不知之非知邪？」",
             "translation": "啮缺问王倪说：「你知道万物有共同的标准吗？」王倪说：「我怎么知道！」「你知道你所不知道的吗？」王倪说：「我怎么知道！」「那么万物就无法知道了吗？」王倪说：「我怎么知道！虽然这样，还是让我试着说说。怎么知道我所说的知不是不知呢？怎么知道我所说的不知不是知呢？」"
         },
         {
-            "original": "且吾尝试问乎女：民湿寝则腰疾偏死，鳅然乎哉？木处则惴栗恂惧，猿猴然乎哉？三者孰知正处？民食<span class=\"hz\" data-pinyin=\"huàn\">刍豢</span>，<span class=\"hz\" data-pinyin=\"mí\">麋</span>鹿食<span class=\"hz\" data-pinyin=\"jiàn\">荐</span>，<span class=\"hz\" data-pinyin=\"jí jū\">蝍蛆</span>甘带，<span class=\"hz\" data-pinyin=\"chī\">鸱</span>鸦<span class=\"hz\" data-pinyin=\"shì\">耆</span>鼠，四者孰知正味？",
+            "original": "且吾尝试问乎女：民湿寝则腰疾偏死，鳅然乎哉？木处则惴栗恂惧，猿猴然乎哉？三者孰知正处？民食刍<span class=\"hz\" data-pinyin=\"huàn\">豢</span>，<span class=\"hz\" data-pinyin=\"mí\">麋</span>鹿食<span class=\"hz\" data-pinyin=\"jiàn\">荐</span>，<span class=\"hz\" data-pinyin=\"jí jū\">蝍蛆</span>甘带，<span class=\"hz\" data-pinyin=\"chī\">鸱</span>鸦<span class=\"hz\" data-pinyin=\"shì\">耆</span>鼠，四者孰知正味？",
             "translation": "让我再试着问你：人睡在潮湿的地方就会腰疾偏瘫，泥鳅会这样吗？人住在树上就会恐惧不安，猿猴会这样吗？这三者谁知道什么是真正舒适的居所？人吃牲畜的肉，麋鹿吃草，蜈蚣吃蛇，猫头鹰和乌鸦喜欢吃老鼠，这四者谁知道什么是真正的美味？"
         },
         {
-            "original": "猿<span class=\"hz\" data-pinyin=\"biān\">猵狙</span>以为雌，麋与鹿交，鳅与鱼游。<span class=\"hz\" data-pinyin=\"qiáng\">毛嫱</span><span class=\"hz\" data-pinyin=\"jī\">丽姬</span>，人之所美也；鱼见之深入，鸟见之高飞，麋鹿见之<span class=\"hz\" data-pinyin=\"jué\">决骤</span>。四者孰知天下之正色哉？自我观之，仁义之端，是非之涂，樊然殽乱，吾恶能知其辩！」",
+            "original": "猿<span class=\"hz\" data-pinyin=\"biān\">猵</span><span class=\"hz\" data-pinyin=\"jū\">狙</span>以为雌，麋与鹿交，鳅与鱼游。毛<span class=\"hz\" data-pinyin=\"qiáng\">嫱</span>丽<span class=\"hz\" data-pinyin=\"jī\">姬</span>，人之所美也；鱼见之深入，鸟见之高飞，麋鹿见之决骤。四者孰知天下之正色哉？自我观之，仁义之端，是非之涂，樊然殽乱，吾恶能知其辩！」",
             "translation": "猿和猵狙交配，麋和鹿交配，泥鳅和鱼同游。毛嫱和丽姬，是人们认为美丽的；但是鱼见了她们就深深潜入水底，鸟见了她们就高高飞走，麋鹿见了她们就急速奔跑。这四者谁知道什么是天下真正的美色呢？依我看来，仁义的苗头，是非的途径，纷然错乱，我怎么能知道它们的分别呢！」"
         },
         {
@@ -143,7 +143,7 @@ window.qiwulun = {
             "translation": "啮缺说：「你不了解利害，那么至人也不了解利害吗？」王倪说：「至人神妙极了！大泽焚烧而不能使他热，江河冰冻而不能使他寒，疾雷劈山、暴风海啸而不能使他惊。像这样的人，乘着云气，骑着日月，而遨游于四海之外。死生都不能使他改变，何况利害的端倪呢！」"
         },
         {
-            "original": "<span class=\"hz\" data-pinyin=\"qú\">瞿</span>鹊子问于长<span class=\"hz\" data-pinyin=\"wú\">梧</span>子曰：「吾闻诸夫子，圣人不从事于务，不就利，不违害，不喜求，不缘道；无谓有谓，有谓无谓，而游乎尘垢之外。夫子以为<span class=\"hz\" data-pinyin=\"mèng\">孟浪</span>之言，而我以为妙道之行也。吾子以为奚若？」",
+            "original": "<span class=\"hz\" data-pinyin=\"qú\">瞿</span>鹊子问于长<span class=\"hz\" data-pinyin=\"wú\">梧</span>子曰：「吾闻诸夫子，圣人不从事于务，不就利，不违害，不喜求，不缘道；无谓有谓，有谓无谓，而游乎尘垢之外。夫子以为孟浪之言，而我以为妙道之行也。吾子以为奚若？」",
             "translation": "瞿鹊子问长梧子说：「我听孔夫子说，圣人不从事世俗的事务，不追求利益，不躲避祸害，不喜欢妄求，不拘泥于道；无言如同有言，有言如同无言，而遨游于尘世之外。孔夫子认为这些是轻率的言论，而我却认为是妙道的体现。您认为怎么样？」"
         },
         {
@@ -159,7 +159,7 @@ window.qiwulun = {
             "translation": "丽姬，是艾地守封人的女儿。晋国刚得到她的时候，她哭得眼泪沾湿了衣襟；等她到了晋王的宫里，和晋王同睡一床，吃美味的肉食，这才后悔当初不该哭泣。我怎么知道死者不后悔当初不该求生呢！"
         },
         {
-            "original": "梦饮酒者，旦而哭泣；梦哭泣者，旦而田猎。方其梦也，不知其梦也。梦之中又占其梦焉，觉而后知其梦也。且有大觉而后知此其大梦也，而愚者自以为觉，窃窃然知之。君乎，牧乎，固哉！丘也与女，皆梦也；予谓女梦，亦梦也。是其言也，其名为<span class=\"hz\" data-pinyin=\"diào\">吊诡</span>。",
+            "original": "梦饮酒者，旦而哭泣；梦哭泣者，旦而田猎。方其梦也，不知其梦也。梦之中又占其梦焉，觉而后知其梦也。且有大觉而后知此其大梦也，而愚者自以为觉，窃窃然知之。君乎，牧乎，固哉！丘也与女，皆梦也；予谓女梦，亦梦也。是其言也，其名为吊诡。",
             "translation": "梦见饮酒作乐的人，早晨起来却在哭泣；梦见哭泣的人，早晨起来却在打猎。当他做梦的时候，不知道自己在做梦。梦中还在占卜自己的梦，醒来以后才知道是做梦。只有大醒以后才知道这是大梦，而愚昧的人自以为清醒，窃窃然自以为知道。君啊，臣啊，太固执了！孔丘和你，都在做梦；我说你在做梦，也是在做梦。这些话，叫做吊诡。"
         },
         {
@@ -171,7 +171,7 @@ window.qiwulun = {
             "translation": "让观点和你相同的人来评判吗？既然和你相同，怎么能评判呢！让观点和我相同的人来评判吗？既然和我相同，怎么能评判呢！让观点和你我都不同的人来评判吗？既然和你我都不同，怎么能评判呢！让观点和你我都相同的人来评判吗？既然和你我都相同，怎么能评判呢！那么我和你及别人都不能相知，还要等待谁呢？"
         },
         {
-            "original": "何谓和之以天<span class=\"hz\" data-pinyin=\"ní\">倪</span>？曰：是不是，然不然。是若果是也，则是之异乎不是也亦无辩；然若果然也，则然之异乎不然也亦无辩。化声之相待，若其不相待，和之以天倪，因之以<span class=\"hz\" data-pinyin=\"yǎn\">曼衍</span>，所以穷年也。",
+            "original": "何谓和之以天<span class=\"hz\" data-pinyin=\"ní\">倪</span>？曰：是不是，然不然。是若果是也，则是之异乎不是也亦无辩；然若果然也，则然之异乎不然也亦无辩。化声之相待，若其不相待，和之以天倪，因之以曼衍，所以穷年也。",
             "translation": "什么叫用自然的分际来调和是非？回答说：是也是不是，然也是不然。是如果果真是是，那么是和不是的区别也无须辩论；然如果果真是然，那么然和不然的区别也无须辩论。变化的声音是相互对待的，如果它们不相互对待，用自然的分际来调和，任其发展，这样就可以享尽天年。"
         },
         {
@@ -179,11 +179,11 @@ window.qiwulun = {
             "translation": "忘掉年岁忘掉义理，遨游于无穷的境界，所以寄寓于无穷的境界。」"
         },
         {
-            "original": "<span class=\"hz\" data-pinyin=\"wǎng\">罔两</span>问景曰：「<span class=\"hz\" data-pinyin=\"nǎng\">曩</span>子行，今子止；曩子坐，今子起；何其无特操与？」景曰：「吾有待而然者邪？吾所待又有待而然者邪？吾待蛇<span class=\"hz\" data-pinyin=\"fù\">蚹</span><span class=\"hz\" data-pinyin=\"tiáo\">蜩</span>翼邪？恶识所以然！恶识所以不然！」",
+            "original": "<span class=\"hz\" data-pinyin=\"wǎng\">罔</span>两问景曰：「<span class=\"hz\" data-pinyin=\"nǎng\">曩</span>子行，今子止；曩子坐，今子起；何其无特操与？」景曰：「吾有待而然者邪？吾所待又有待而然者邪？吾待蛇<span class=\"hz\" data-pinyin=\"fù\">蚹</span><span class=\"hz\" data-pinyin=\"tiáo\">蜩</span>翼邪？恶识所以然！恶识所以不然！」",
             "translation": "影子旁边的微影问影子说：「刚才你行走，现在你停止；刚才你坐着，现在你起来；为什么你这样没有独立的操守呢？」影子说：「我是因为有所依赖才这样的吗？我所依赖的又有依赖才这样的吗？我所依赖的是像蛇的鳞皮和蝉的翅膀吗？怎么知道为什么这样！怎么知道为什么不这样！」"
         },
         {
-            "original": "昔者庄周梦为胡蝶，<span class=\"hz\" data-pinyin=\"xǔ\">栩栩</span>然胡蝶也，自喻适志与！不知周也。俄然觉，则<span class=\"hz\" data-pinyin=\"qú\">蘧蘧</span>然周也。不知周之梦为胡蝶与，胡蝶之梦为周与？周与胡蝶，则必有分矣。此之谓物化。",
+            "original": "昔者庄周梦为胡蝶，<span class=\"hz\" data-pinyin=\"xǔ xǔ\">栩栩</span>然胡蝶也，自喻适志与！不知周也。俄然觉，则<span class=\"hz\" data-pinyin=\"qú qú\">蘧蘧</span>然周也。不知周之梦为胡蝶与，胡蝶之梦为周与？周与胡蝶，则必有分矣。此之谓物化。",
             "translation": "从前庄周梦见自己变成蝴蝶，翩翩飞舞的一只蝴蝶，自我感觉快意极了！不知道自己原来是庄周。忽然醒过来，惊惶地发现自己是庄周。不知道是庄周梦中变成蝴蝶呢，还是蝴蝶梦见自己变成庄周呢？庄周和蝴蝶，必定是有分别的。这就叫做物化。"
         }
     ],
