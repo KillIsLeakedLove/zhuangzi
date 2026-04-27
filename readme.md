@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="image/vibe-coding-banner.png" alt="Vibe Coding Banner" width="100%">
+
 <h1>📚 庄子智慧</h1>
 
 <p><em>「吾生也有涯，而知也无涯」—— 探索道家哲学的现代之旅</em></p>
