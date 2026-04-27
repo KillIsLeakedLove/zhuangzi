@@ -70,6 +70,7 @@ function renderOriginalText(data) {
         </div>
     `).join('');
     setupHzTooltips();
+    setupTimelineScrollSync();
 }
 
 function setupHzTooltips() {
