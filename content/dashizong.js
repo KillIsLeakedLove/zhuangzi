@@ -4,75 +4,75 @@ window.dashizong = {
     "sentences": [
         {
             "original": "知天之所为，知人之所为者，至矣。知天之所为者，天而\u003cspan class=\"hz\" data-pinyin=\"shēng\"\u003e生\u003c/span\u003e也；知人之所为者，以其知之所知以养其知之所\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e知，终其天年而\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e中道夭者，是知之盛也。",
-            "translation": "知道天的作为，知道人的作为，这就是认识的最高境界。知道天的作为，是顺应自然而生；知道人的作为，是用智力所能知道的来保养智力所不能知道的，享尽天年而不中途夭折，这便是智慧的极致。"
+            "translation": "知天之所为，知人之所为者，至矣。知天之所为者，天而生也；知人之所为者，以其知之所知以养其知之所不知，终其天年而不中道夭者，是知之盛也。"
         },
         {
             "original": "虽然，有患。夫知有所待而后当，其所待者特未定也。庸讵知吾所谓天之非人乎？所谓人之非天乎？",
-            "translation": "虽然如此，但还是有问题。知识必须有所依靠才能恰当，而所依靠的对象却是变化不定的。怎知道我所说的天的作为不是人的作为？怎知道我所说的人的作为不是天的作为？"
+            "translation": "虽然，有患。夫知有所待而后当，其所待者特未定也。庸讵知吾所谓天之非人乎？所谓人之非天乎？"
         },
         {
             "original": "且有真人而后有真知。何谓真人？\u003cspan class=\"hz\" data-pinyin=\"gǔ\"\u003e古\u003c/span\u003e之真人，\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e逆寡，\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e雄成，\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e谟士。若然者，过而弗悔，当而\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e自得也；若然者，登高\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"lì\"\u003e慄\u003c/span\u003e，\u003cspan class=\"hz\" data-pinyin=\"rù\"\u003e入\u003c/span\u003e水\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"rú\"\u003e濡\u003c/span\u003e，\u003cspan class=\"hz\" data-pinyin=\"rù\"\u003e入\u003c/span\u003e火\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e热。是知之能登\u003cspan class=\"hz\" data-pinyin=\"jiǎ\"\u003e假\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"yú\"\u003e于\u003c/span\u003e道者也若此。",
-            "translation": "有了真人然后才有真知。什么叫真人？古代的真人，不拒绝微少，不自恃成功，不谋虑事情。像这样，错过时机而不后悔，顺应得当而不自得。像这样，登高不发抖，入水不沾湿，入火不感到热。这是知识能达到与道相合的境界才能如此。"
+            "translation": "且有真人而后有真知。何谓真人？古之真人，不逆寡，不雄成，不谟士。若然者，过而弗悔，当而不自得也；若然者，登高不慄，入水不濡，入火不热。是知之能登假于道者也若此。"
         },
         {
             "original": "\u003cspan class=\"hz\" data-pinyin=\"gǔ\"\u003e古\u003c/span\u003e之真人，其寝\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e梦，其觉\u003cspan class=\"hz\" data-pinyin=\"wú\"\u003e无\u003c/span\u003e忧，其食\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e甘，其息深深。真人之息以踵，众人之息以喉。屈服者，其\u003cspan class=\"hz\" data-pinyin=\"yì\"\u003e嗌\u003c/span\u003e言若\u003cspan class=\"hz\" data-pinyin=\"wā\"\u003e哇\u003c/span\u003e。其\u003cspan class=\"hz\" data-pinyin=\"shì\"\u003e耆\u003c/span\u003e欲深者，其天机浅。",
-            "translation": "古代的真人，睡觉不做梦，醒来不忧愁，吃东西不求甘美，呼吸深沉。真人的呼吸深达脚跟，普通人的呼吸止于喉咙。被屈服的人，咽下话语如呕吐般不自然。嗜好欲望深的人，天然机智就浅薄。"
+            "translation": "古之真人，其寝不梦，其觉无忧，其食不甘，其息深深。真人之息以踵，众人之息以喉。屈服者，其嗌言若哇。其耆欲深者，其天机浅。"
         },
         {
             "original": "\u003cspan class=\"hz\" data-pinyin=\"gǔ\"\u003e古\u003c/span\u003e之真人，\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e知说\u003cspan class=\"hz\" data-pinyin=\"shēng\"\u003e生\u003c/span\u003e，\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e知恶\u003cspan class=\"hz\" data-pinyin=\"sǐ\"\u003e死\u003c/span\u003e；其出\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e䜣，其\u003cspan class=\"hz\" data-pinyin=\"rù\"\u003e入\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e距；\u003cspan class=\"hz\" data-pinyin=\"xiāo\"\u003e翛\u003c/span\u003e然而往，\u003cspan class=\"hz\" data-pinyin=\"xiāo\"\u003e翛\u003c/span\u003e然而来而已矣。\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e忘其所始，\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e求其所终；受而喜之，忘而复之，是之谓\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e以心捐道，\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e以人助天。是之谓真人。",
-            "translation": "古代的真人，不知喜欢生存，不知厌恶死亡；出生不欣喜，入死不抗拒；无拘束地离去，无拘束地回来。不忘记生命的开始，不寻求生命的终结；承受生命而喜欢它，忘却生死而复归自然。这就叫做不用心智损害道，不用人为帮助天。这就叫真人。"
+            "translation": "古之真人，不知说生，不知恶死；其出不䜣，其入不距；翛然而往，翛然而来而已矣。不忘其所始，不求其所终；受而喜之，忘而复之，是之谓不以心捐道，不以人助天。是之谓真人。"
         },
         {
             "original": "若然者，其心志，其容寂，其颡頯；凄然似秋，煖然似春，喜怒通四\u003cspan class=\"hz\" data-pinyin=\"shí\"\u003e时\u003c/span\u003e，与物有宜而莫知其极。",
-            "translation": "像这样的人，心神专一，容貌寂静，额头宽大；冷肃时像秋天，温暖时像春天，喜怒与四时相通，与万物相处适宜而无人知其究竟。"
+            "translation": "若然者，其心志，其容寂，其颡頯；凄然似秋，煖然似春，喜怒通四时，与物有宜而莫知其极。"
         },
         {
             "original": "泉涸，鱼相与处\u003cspan class=\"hz\" data-pinyin=\"yú\"\u003e于\u003c/span\u003e陆，相\u003cspan class=\"hz\" data-pinyin=\"xǔ\"\u003e呴\u003c/span\u003e以湿，相\u003cspan class=\"hz\" data-pinyin=\"rú\"\u003e濡\u003c/span\u003e以\u003cspan class=\"hz\" data-pinyin=\"mò\"\u003e沫\u003c/span\u003e，\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e如相忘\u003cspan class=\"hz\" data-pinyin=\"yú\"\u003e于\u003c/span\u003e江湖。与其誉尧而非桀也，\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e如两忘而化其道。",
-            "translation": "泉水干涸，鱼困在陆地，用湿气互相呼吸，用唾沫互相沾湿，不如在江湖中彼此相忘。与其称赞尧而非议桀，不如把两者都忘掉而化入大道。"
+            "translation": "泉涸，鱼相与处于陆，相呴以湿，相濡以沫，不如相忘于江湖。与其誉尧而非桀也，不如两忘而化其道。"
         },
         {
             "original": "夫大块载我以形，劳我以\u003cspan class=\"hz\" data-pinyin=\"shēng\"\u003e生\u003c/span\u003e，佚我以老，息我以\u003cspan class=\"hz\" data-pinyin=\"sǐ\"\u003e死\u003c/span\u003e。故善吾\u003cspan class=\"hz\" data-pinyin=\"shēng\"\u003e生\u003c/span\u003e者，乃所以善吾\u003cspan class=\"hz\" data-pinyin=\"sǐ\"\u003e死\u003c/span\u003e也。",
-            "translation": "大自然赋予我形体，用生存来劳苦我，用衰老来安逸我，用死亡来休息我。所以认为生是好事的，也就应该认为死是好事。"
+            "translation": "夫大块载我以形，劳我以生，佚我以老，息我以死。故善吾生者，乃所以善吾死也。"
         },
         {
             "original": "夫道，有情有信，\u003cspan class=\"hz\" data-pinyin=\"wú\"\u003e无\u003c/span\u003e为\u003cspan class=\"hz\" data-pinyin=\"wú\"\u003e无\u003c/span\u003e形；可传而\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e可受，可得而\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e可\u003cspan class=\"hz\" data-pinyin=\"xiàn\"\u003e见\u003c/span\u003e；自本自根，未有天地，自\u003cspan class=\"hz\" data-pinyin=\"gǔ\"\u003e古\u003c/span\u003e以固存；神鬼神帝，\u003cspan class=\"hz\" data-pinyin=\"shēng\"\u003e生\u003c/span\u003e天\u003cspan class=\"hz\" data-pinyin=\"shēng\"\u003e生\u003c/span\u003e地；在太极之先而\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e为高，在六极之下而\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e为深，先天地\u003cspan class=\"hz\" data-pinyin=\"shēng\"\u003e生\u003c/span\u003e而\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e为久，长\u003cspan class=\"hz\" data-pinyin=\"yú\"\u003e于\u003c/span\u003e上\u003cspan class=\"hz\" data-pinyin=\"gǔ\"\u003e古\u003c/span\u003e而\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e为老。",
-            "translation": "道，真实而有信验，无为而无形；可以心传而不可以口授，可以心得而不可以目见；自为根本，在没有天地之前，自古以来就永恒存在；它使鬼帝神灵，生天生地；在太极之先却不算高，在六极之下却不算深，先于天地却不算久，长于上古却不算老。"
+            "translation": "夫道，有情有信，无为无形；可传而不可受，可得而不可见；自本自根，未有天地，自古以固存；神鬼神帝，生天生地；在太极之先而不为高，在六极之下而不为深，先天地生而不为久，长于上古而不为老。"
         },
         {
             "original": "南\u003cspan class=\"hz\" data-pinyin=\"bó\"\u003e伯\u003c/span\u003e子\u003cspan class=\"hz\" data-pinyin=\"kuí\"\u003e葵\u003c/span\u003e问乎女\u003cspan class=\"hz\" data-pinyin=\"yǔ\"\u003e偊\u003c/span\u003e曰：「子之年长矣，而色若孺子，何也？」曰：「吾闻道矣。」南\u003cspan class=\"hz\" data-pinyin=\"bó\"\u003e伯\u003c/span\u003e子\u003cspan class=\"hz\" data-pinyin=\"kuí\"\u003e葵\u003c/span\u003e曰：「道可得学邪？」曰：「恶！恶可！子非其人也。",
-            "translation": "南伯子葵问女偊：「您年纪很大了，面色却像小孩，为什么？」答：「我闻道了。」南伯子葵问：「道可以学吗？」答：「不！怎么可以！你不是学道的人。」"
+            "translation": "南伯子葵问乎女偊曰：「子之年长矣，而色若孺子，何也？」曰：「吾闻道矣。」南伯子葵曰：「道可得学邪？」曰：「恶！恶可！子非其人也。"
         },
         {
             "original": "吾犹\u003cspan class=\"hz\" data-pinyin=\"shǒu\"\u003e守\u003c/span\u003e而告之，\u003cspan class=\"hz\" data-pinyin=\"sān\"\u003e参\u003c/span\u003e日而后能\u003cspan class=\"hz\" data-pinyin=\"wài\"\u003e外\u003c/span\u003e天下；已\u003cspan class=\"hz\" data-pinyin=\"wài\"\u003e外\u003c/span\u003e天下矣，吾又\u003cspan class=\"hz\" data-pinyin=\"shǒu\"\u003e守\u003c/span\u003e之，七日而后能\u003cspan class=\"hz\" data-pinyin=\"wài\"\u003e外\u003c/span\u003e物；已\u003cspan class=\"hz\" data-pinyin=\"wài\"\u003e外\u003c/span\u003e物矣，吾又\u003cspan class=\"hz\" data-pinyin=\"shǒu\"\u003e守\u003c/span\u003e之，九日而后能\u003cspan class=\"hz\" data-pinyin=\"wài\"\u003e外\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"shēng\"\u003e生\u003c/span\u003e；已\u003cspan class=\"hz\" data-pinyin=\"wài\"\u003e外\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"shēng\"\u003e生\u003c/span\u003e矣，而后能\u003cspan class=\"hz\" data-pinyin=\"zhāo\"\u003e朝\u003c/span\u003e彻；\u003cspan class=\"hz\" data-pinyin=\"zhāo\"\u003e朝\u003c/span\u003e彻，而后能\u003cspan class=\"hz\" data-pinyin=\"xiàn\"\u003e见\u003c/span\u003e独；\u003cspan class=\"hz\" data-pinyin=\"xiàn\"\u003e见\u003c/span\u003e独，而后能\u003cspan class=\"hz\" data-pinyin=\"wú\"\u003e无\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"gǔ\"\u003e古\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"jīn\"\u003e今\u003c/span\u003e；\u003cspan class=\"hz\" data-pinyin=\"wú\"\u003e无\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"gǔ\"\u003e古\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"jīn\"\u003e今\u003c/span\u003e，而后能\u003cspan class=\"hz\" data-pinyin=\"rù\"\u003e入\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"yú\"\u003e于\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"sǐ\"\u003e死\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"shēng\"\u003e生\u003c/span\u003e。",
-            "translation": "我还是持守而告诉他，三天后能遗忘天下；已遗忘天下，我又持守，七天后能遗忘外物；已遗忘外物，我又持守，九天后能遗忘生命；已遗忘生命，而后能心境清明；心境清明，而后能见到独立无待的道；见独，而后能超越古今；超越古今，而后能进入不死不生的境界。"
+            "translation": "吾犹守而告之，参日而后能外天下；已外天下矣，吾又守之，七日而后能外物；已外物矣，吾又守之，九日而后能外生；已外生矣，而后能朝彻；朝彻，而后能见独；见独，而后能无古今；无古今，而后能入于不死不生。"
         },
         {
             "original": "子祀、子舆、子犁、子来四人相与语曰：「孰能以\u003cspan class=\"hz\" data-pinyin=\"wú\"\u003e无\u003c/span\u003e为首，以\u003cspan class=\"hz\" data-pinyin=\"shēng\"\u003e生\u003c/span\u003e为脊，以\u003cspan class=\"hz\" data-pinyin=\"sǐ\"\u003e死\u003c/span\u003e为\u003cspan class=\"hz\" data-pinyin=\"kāo\"\u003e尻\u003c/span\u003e，孰知\u003cspan class=\"hz\" data-pinyin=\"sǐ\"\u003e死\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"shēng\"\u003e生\u003c/span\u003e存亡之一体者，吾与之友矣。」四人相视而笑，莫逆\u003cspan class=\"hz\" data-pinyin=\"yú\"\u003e于\u003c/span\u003e心，遂相与为友。",
-            "translation": "子祀、子舆、子犁、子来四人交谈说：「谁能把无当作头，把生当作脊背，把死当作臀部，谁能知道死生存亡是一体的，我们就和他做朋友。」四人相视而笑，心心相印，于是结为朋友。"
+            "translation": "子祀、子舆、子犁、子来四人相与语曰：「孰能以无为首，以生为脊，以死为尻，孰知死生存亡之一体者，吾与之友矣。」四人相视而笑，莫逆于心，遂相与为友。"
         },
         {
             "original": "俄而子舆有病，子祀往问之。曰：「伟哉夫造物者，将以予为此拘拘也！」\u003cspan class=\"hz\" data-pinyin=\"qū\"\u003e曲\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"lóu\"\u003e偻\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"fà\"\u003e发\u003c/span\u003e背，上有五管，\u003cspan class=\"hz\" data-pinyin=\"yí\"\u003e颐\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"yǐn\"\u003e隐\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"yú\"\u003e于\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"qí\"\u003e齐\u003c/span\u003e，肩高\u003cspan class=\"hz\" data-pinyin=\"yú\"\u003e于\u003c/span\u003e顶，\u003cspan class=\"hz\" data-pinyin=\"gōu\"\u003e句\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"zhuì\"\u003e赘\u003c/span\u003e指天。",
-            "translation": "不久子舆病了，子祀去问候。子舆说：「伟大啊造物者，要把我变成这样弯曲的样子！」他弯腰驼背，五脏穴位朝上，面颊藏在肚脐里，肩膀高过头顶，发髻朝天。"
+            "translation": "俄而子舆有病，子祀往问之。曰：「伟哉夫造物者，将以予为此拘拘也！」曲偻发背，上有五管，颐隐于齐，肩高于顶，句赘指天。"
         },
         {
             "original": "子祀曰：「女恶之乎？」曰：「亡，予何恶！\u003cspan class=\"hz\" data-pinyin=\"jìn\"\u003e浸\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"jiǎ\"\u003e假\u003c/span\u003e而化予之左臂以为鸡，予因以求\u003cspan class=\"hz\" data-pinyin=\"shí\"\u003e时\u003c/span\u003e夜；\u003cspan class=\"hz\" data-pinyin=\"jìn\"\u003e浸\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"jiǎ\"\u003e假\u003c/span\u003e而化予之右臂以为弹，予因以求\u003cspan class=\"hz\" data-pinyin=\"xiāo\"\u003e鸮\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"zhì\"\u003e炙\u003c/span\u003e；\u003cspan class=\"hz\" data-pinyin=\"jìn\"\u003e浸\u003c/span\u003e\u003cspan class=\"hz\" data-pinyin=\"jiǎ\"\u003e假\u003c/span\u003e而化予之\u003cspan class=\"hz\" data-pinyin=\"kāo\"\u003e尻\u003c/span\u003e以为轮，以神为马，予因以乘之，岂更驾哉！",
-            "translation": "子祀问：「你厌恶吗？」子舆说：「不，我厌恶什么！假如把左臂变成鸡，我就用它来报晓；假如把右臂变成弹丸，我就用它打鸟烤肉；假如把臀部变成车轮，把精神变成马，我就乘它而行，哪里还要另备车马！」"
+            "translation": "子祀曰：「女恶之乎？」曰：「亡，予何恶！浸假而化予之左臂以为鸡，予因以求时夜；浸假而化予之右臂以为弹，予因以求鸮炙；浸假而化予之尻以为轮，以神为马，予因以乘之，岂更驾哉！"
         },
         {
             "original": "且夫得者，\u003cspan class=\"hz\" data-pinyin=\"shí\"\u003e时\u003c/span\u003e也，失者，顺也；安\u003cspan class=\"hz\" data-pinyin=\"shí\"\u003e时\u003c/span\u003e而处顺，哀乐\u003cspan class=\"hz\" data-pinyin=\"bù\"\u003e不\u003c/span\u003e能\u003cspan class=\"hz\" data-pinyin=\"rù\"\u003e入\u003c/span\u003e也。此\u003cspan class=\"hz\" data-pinyin=\"gǔ\"\u003e古\u003c/span\u003e之所谓\u003cspan class=\"hz\" data-pinyin=\"xuán\"\u003e县\u003c/span\u003e解也。",
-            "translation": "况且得生是时机，失生是顺应；安于时机而处于顺应，悲哀欢乐都不能侵入心中。这就是古人所说的悬解。"
+            "translation": "且夫得者，时也，失者，顺也；安时而处顺，哀乐不能入也。此古之所谓县解也。"
         },
         {
             "original": "颜回曰：「回益矣。」仲尼曰：「何谓也？」曰：「回忘仁义矣。」曰：「可矣，犹未也。」它日复\u003cspan class=\"hz\" data-pinyin=\"xiàn\"\u003e见\u003c/span\u003e，曰：「回益矣。」曰：「何谓也？」曰：「回忘礼乐矣。」曰：「可矣，犹未也。」",
-            "translation": "颜回说：「我进步了。」孔子问：「什么意思？」颜回说：「我忘掉仁义了。」孔子说：「可以了，但还不够。」过几天又见面，颜回说：「我进步了。」孔子问：「什么意思？」颜回说：「我忘掉礼乐了。」孔子说：「可以了，但还不够。」"
+            "translation": "颜回曰：「回益矣。」仲尼曰：「何谓也？」曰：「回忘仁义矣。」曰：「可矣，犹未也。」它日复见，曰：「回益矣。」曰：「何谓也？」曰：「回忘礼乐矣。」曰：「可矣，犹未也。」"
         },
         {
             "original": "它日复\u003cspan class=\"hz\" data-pinyin=\"xiàn\"\u003e见\u003c/span\u003e，曰：「回益矣。」曰：「何谓也？」曰：「回坐忘矣。」仲尼蹴然曰：「何谓坐忘？」颜回曰：「\u003cspan class=\"hz\" data-pinyin=\"duò\"\u003e堕\u003c/span\u003e肢体，\u003cspan class=\"hz\" data-pinyin=\"chù\"\u003e黜\u003c/span\u003e聪明，离形去知，同\u003cspan class=\"hz\" data-pinyin=\"yú\"\u003e于\u003c/span\u003e大通，此谓坐忘。」",
-            "translation": "过几天又见面，颜回说：「我进步了。」孔子问：「什么意思？」颜回说：「我坐忘了。」孔子惊奇地问：「什么叫坐忘？」颜回说：「遗忘肢体，抛开聪明，离开形体去掉智慧，与大道相通，这就叫坐忘。」"
+            "translation": "它日复见，曰：「回益矣。」曰：「何谓也？」曰：「回坐忘矣。」仲尼蹴然曰：「何谓坐忘？」颜回曰：「堕肢体，黜聪明，离形去知，同于大通，此谓坐忘。」"
         },
         {
             "original": "仲尼曰：「同则\u003cspan class=\"hz\" data-pinyin=\"wú\"\u003e无\u003c/span\u003e好也，化则\u003cspan class=\"hz\" data-pinyin=\"wú\"\u003e无\u003c/span\u003e常也。而果其贤乎！丘也请从而后也。」",
-            "translation": "孔子说：「同一就没有偏好了，变化就没有恒常了。你果真是贤人啊！孔丘我愿意跟随在你后面。」"
+            "translation": "仲尼曰：「同则无好也，化则无常也。而果其贤乎！丘也请从而后也。」"
         }
     ],
     "interpretation": "<h3>内容梗概</h3><p>《大宗师》是《庄子》内篇的第六篇，也是全书哲学浓度最高的篇章之一。「大宗师」意为以道为宗为师——道是宇宙万物的本源和最高宗师。本篇系统阐述了道家的核心思想：道的本体论、真人的境界论、修养的功夫论。从「知天之所为，知人之所为」的认知起点，到「相濡以沫，不如相忘于江湖」的处世智慧，再到「坐忘」的修养工夫，层层递进，构建了一个完整的道家哲学体系。</p><h3>全文结构</h3><p><strong>第一层（真人与真知）</strong>：提出「有真人而后有真知」的命题。真人「不逆寡，不雄成，不谟士」，超越生死，顺应自然。道的特性是「有情有信，无为无形；可传而不可受，可得而不可见」。</p><p><strong>第二层（外天下—外物—外生）</strong>：南伯子葵问道于女偊，女偊传授修养次第：三日外天下，七日外物，九日外生，然后朝彻、见独、无古今、入于不死不生。这是道家修养的完整路线图。</p><p><strong>第三层（子祀、子舆、子犁、子来）</strong>：四人以「死生存亡之一体」为交友标准。子舆病而不忧，以「安时而处顺」的达观面对形体的变化，展现真人「不以心捐道，不以人助天」的境界。</p><p><strong>第四层（颜回坐忘）</strong>：颜回从「忘仁义」到「忘礼乐」再到「坐忘」，层层递进。坐忘的工夫是「堕肢体，黜聪明，离形去知，同于大通」——放下身体、抛开智巧、忘却知识，与大道合一。</p><h3>总结</h3><p>《大宗师》的终极指向是「与道合一」。道是自本自根的宇宙本体，真人是与道合一的理想人格，坐忘是达到合一的修养工夫。三者构成一个完整的体系：本体论（道是什么）→境界论（真人如何）→功夫论（如何成为真人）。庄子的哲学不是空谈玄理，而是提供了一条可实践的修养路径：从外天下开始，逐步放下对外在世界的执着，最终「离形去知」，与大道相通。</p>",
